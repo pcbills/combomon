@@ -2,7 +2,7 @@
   "monsters": [
     {
       "number": 1,
-      "name": "Buglett",
+      "name": "Buggy",
       "spriteFile": "Combomon Assets/sprites/sprite_001.png",
       "type": "Bug",
       "evolution": "Base",
@@ -11,7 +11,7 @@
     },
     {
       "number": 2,
-      "name": "Bugmite",
+      "name": "Bugude",
       "spriteFile": "Combomon Assets/sprites/sprite_002.png",
       "type": "Bug",
       "evolution": 1,
@@ -20,7 +20,7 @@
     },
     {
       "number": 3,
-      "name": "Bugzilla",
+      "name": "Bugragon",
       "spriteFile": "Combomon Assets/sprites/sprite_003.png",
       "type": "Bug",
       "evolution": 2,
@@ -29,7 +29,7 @@
     },
     {
       "number": 4,
-      "name": "Embark",
+      "name": "Falmewhirl",
       "spriteFile": "Combomon Assets/sprites/sprite_004.png",
       "type": "Fire",
       "evolution": "Base",
@@ -38,7 +38,7 @@
     },
     {
       "number": 5,
-      "name": "Flameborn",
+      "name": "Flameix",
       "spriteFile": "Combomon Assets/sprites/sprite_005.png",
       "type": "Fire",
       "evolution": 1,
@@ -47,7 +47,7 @@
     },
     {
       "number": 6,
-      "name": "Infernus",
+      "name": "Blazix",
       "spriteFile": "Combomon Assets/sprites/sprite_006.png",
       "type": "Fire",
       "evolution": 2,
@@ -56,7 +56,7 @@
     },
     {
       "number": 7,
-      "name": "Sproutling",
+      "name": "Squill",
       "spriteFile": "Combomon Assets/sprites/sprite_007.png",
       "type": "Grass",
       "evolution": "Base",
@@ -65,7 +65,7 @@
     },
     {
       "number": 8,
-      "name": "Verdanto",
+      "name": "Peasage",
       "spriteFile": "Combomon Assets/sprites/sprite_008.png",
       "type": "Grass",
       "evolution": 1,
@@ -74,7 +74,7 @@
     },
     {
       "number": 9,
-      "name": "Florasaur",
+      "name": "Octovine",
       "spriteFile": "Combomon Assets/sprites/sprite_009.png",
       "type": "Grass",
       "evolution": 2,
@@ -83,7 +83,7 @@
     },
     {
       "number": 10,
-      "name": "Sparklet",
+      "name": "Mammetric",
       "spriteFile": "Combomon Assets/sprites/sprite_010.png",
       "type": "Electric",
       "evolution": "Base",
@@ -92,7 +92,7 @@
     },
     {
       "number": 11,
-      "name": "Voltpup",
+      "name": "Sparkpup",
       "spriteFile": "Combomon Assets/sprites/sprite_011.png",
       "type": "Electric",
       "evolution": 2,
@@ -101,7 +101,7 @@
     },
     {
       "number": 12,
-      "name": "Thunderhound",
+      "name": "Octospark",
       "spriteFile": "Combomon Assets/sprites/sprite_012.png",
       "type": "Electric",
       "evolution": 2,
@@ -110,7 +110,7 @@
     },
     {
       "number": 13,
-      "name": "Droplette",
+      "name": "Slipbug",
       "spriteFile": "Combomon Assets/sprites/sprite_013.png",
       "type": "Water",
       "evolution": "Base",
@@ -119,7 +119,7 @@
     },
     {
       "number": 14,
-      "name": "Aquafin",
+      "name": "Helmurtle",
       "spriteFile": "Combomon Assets/sprites/sprite_014.png",
       "type": "Water",
       "evolution": 2,
@@ -128,7 +128,7 @@
     },
     {
       "number": 15,
-      "name": "Hydroking",
+      "name": "Concrab",
       "spriteFile": "Combomon Assets/sprites/sprite_015.png",
       "type": "Water",
       "evolution": 2,
@@ -137,7 +137,7 @@
     },
     {
       "number": 16,
-      "name": "Chitinch",
+      "name": "Buzzee",
       "spriteFile": "Combomon Assets/sprites/sprite_016.png",
       "type": "Bug",
       "evolution": "Base",
@@ -146,7 +146,7 @@
     },
     {
       "number": 17,
-      "name": "Carapunch",
+      "name": "Griwing",
       "spriteFile": "Combomon Assets/sprites/sprite_017.png",
       "type": "Bug",
       "evolution": 2,
@@ -155,7 +155,7 @@
     },
     {
       "number": 18,
-      "name": "Scorchet",
+      "name": "Frywing",
       "spriteFile": "Combomon Assets/sprites/sprite_018.png",
       "type": "Fire",
       "evolution": "Base",
@@ -164,7 +164,7 @@
     },
     {
       "number": 19,
-      "name": "Blazewind",
+      "name": "Infernix",
       "spriteFile": "Combomon Assets/sprites/sprite_019.png",
       "type": "Fire",
       "evolution": 2,
@@ -173,7 +173,7 @@
     },
     {
       "number": 20,
-      "name": "Leafwhisk",
+      "name": "Gracrab",
       "spriteFile": "Combomon Assets/sprites/sprite_020.png",
       "type": "Grass",
       "evolution": "Base",
@@ -182,7 +182,7 @@
     },
     {
       "number": 21,
-      "name": "Thornvine",
+      "name": "Leafwing",
       "spriteFile": "Combomon Assets/sprites/sprite_021.png",
       "type": "Grass",
       "evolution": 2,
@@ -191,7 +191,7 @@
     },
     {
       "number": 22,
-      "name": "Joltkit",
+      "name": "Voltsaur",
       "spriteFile": "Combomon Assets/sprites/sprite_022.png",
       "type": "Electric",
       "evolution": "Base",
@@ -200,16 +200,16 @@
     },
     {
       "number": 23,
-      "name": "Zapphound",
+      "name": "Inkrown",
       "spriteFile": "Combomon Assets/sprites/sprite_023.png",
-      "type": "Electric",
+      "type": "Water",
       "evolution": 2,
       "personality": "Cuddly",
       "region": "Proto"
     },
     {
       "number": 24,
-      "name": "Bubblit",
+      "name": "Bubblitty",
       "spriteFile": "Combomon Assets/sprites/sprite_024.png",
       "type": "Water",
       "evolution": "Base",
@@ -218,25 +218,25 @@
     },
     {
       "number": 25,
-      "name": "Tidalwave",
+      "name": "Crickidain",
       "spriteFile": "Combomon Assets/sprites/sprite_025.png",
-      "type": "Water",
+      "type": "Bug",
       "evolution": 2,
       "personality": "Moody",
       "region": "Saliose City"
     },
     {
       "number": 26,
-      "name": "Antling",
+      "name": "Slipuppy",
       "spriteFile": "Combomon Assets/sprites/sprite_026.png",
-      "type": "Bug",
+      "type": "Water",
       "evolution": "Base",
       "personality": "Moody",
       "region": "Saliose City"
     },
     {
       "number": 27,
-      "name": "Antsoldier",
+      "name": "Antdog",
       "spriteFile": "Combomon Assets/sprites/sprite_027.png",
       "type": "Bug",
       "evolution": 1,
@@ -245,7 +245,7 @@
     },
     {
       "number": 28,
-      "name": "Antgeneral",
+      "name": "Sectennant",
       "spriteFile": "Combomon Assets/sprites/sprite_028.png",
       "type": "Bug",
       "evolution": 2,
@@ -254,7 +254,7 @@
     },
     {
       "number": 29,
-      "name": "Pyrokit",
+      "name": "Pyrocrap",
       "spriteFile": "Combomon Assets/sprites/sprite_029.png",
       "type": "Fire",
       "evolution": "Base",
@@ -263,7 +263,7 @@
     },
     {
       "number": 30,
-      "name": "Inferncat",
+      "name": "Camfricat",
       "spriteFile": "Combomon Assets/sprites/sprite_030.png",
       "type": "Fire",
       "evolution": 2,
@@ -272,7 +272,7 @@
     },
     {
       "number": 31,
-      "name": "Petalbit",
+      "name": "Bittypetal",
       "spriteFile": "Combomon Assets/sprites/sprite_031.png",
       "type": "Grass",
       "evolution": "Base",
@@ -281,7 +281,7 @@
     },
     {
       "number": 32,
-      "name": "Bloomster",
+      "name": "Halopetal",
       "spriteFile": "Combomon Assets/sprites/sprite_032.png",
       "type": "Grass",
       "evolution": 2,
@@ -290,16 +290,16 @@
     },
     {
       "number": 33,
-      "name": "Staticling",
+      "name": "Drenchquid",
       "spriteFile": "Combomon Assets/sprites/sprite_033.png",
-      "type": "Electric",
+      "type": "Water",
       "evolution": "Base",
       "personality": "Moody",
       "region": "Saliose City"
     },
     {
       "number": 34,
-      "name": "Voltorex",
+      "name": "Conductobug",
       "spriteFile": "Combomon Assets/sprites/sprite_034.png",
       "type": "Electric",
       "evolution": 2,
@@ -308,7 +308,7 @@
     },
     {
       "number": 35,
-      "name": "Streamlet",
+      "name": "Bubblil",
       "spriteFile": "Combomon Assets/sprites/sprite_035.png",
       "type": "Water",
       "evolution": "Base",
@@ -317,7 +317,7 @@
     },
     {
       "number": 36,
-      "name": "Rapidflow",
+      "name": "Cullking",
       "spriteFile": "Combomon Assets/sprites/sprite_036.png",
       "type": "Water",
       "evolution": 2,
@@ -326,7 +326,7 @@
     },
     {
       "number": 37,
-      "name": "Cricko",
+      "name": "Peafence",
       "spriteFile": "Combomon Assets/sprites/sprite_037.png",
       "type": "Bug",
       "evolution": "Base",
@@ -335,7 +335,7 @@
     },
     {
       "number": 38,
-      "name": "Crickatune",
+      "name": "Pinchlil",
       "spriteFile": "Combomon Assets/sprites/sprite_038.png",
       "type": "Bug",
       "evolution": 2,
@@ -344,7 +344,7 @@
     },
     {
       "number": 39,
-      "name": "Cinders",
+      "name": "Burnglass",
       "spriteFile": "Combomon Assets/sprites/sprite_039.png",
       "type": "Fire",
       "evolution": "Base",
@@ -353,7 +353,7 @@
     },
     {
       "number": 40,
-      "name": "Ashblaze",
+      "name": "Burnmane",
       "spriteFile": "Combomon Assets/sprites/sprite_040.png",
       "type": "Fire",
       "evolution": 2,
@@ -362,7 +362,7 @@
     },
     {
       "number": 41,
-      "name": "Seedot",
+      "name": "Tweewheat",
       "spriteFile": "Combomon Assets/sprites/sprite_041.png",
       "type": "Grass",
       "evolution": "Base",
@@ -371,7 +371,7 @@
     },
     {
       "number": 42,
-      "name": "Oakling",
+      "name": "Seedeye",
       "spriteFile": "Combomon Assets/sprites/sprite_042.png",
       "type": "Grass",
       "evolution": 2,
@@ -380,7 +380,7 @@
     },
     {
       "number": 43,
-      "name": "Boltling",
+      "name": "Boltram",
       "spriteFile": "Combomon Assets/sprites/sprite_043.png",
       "type": "Electric",
       "evolution": "Base",
@@ -389,7 +389,7 @@
     },
     {
       "number": 44,
-      "name": "Shockstrike",
+      "name": "Voltclaw",
       "spriteFile": "Combomon Assets/sprites/sprite_044.png",
       "type": "Electric",
       "evolution": 2,
@@ -398,16 +398,16 @@
     },
     {
       "number": 45,
-      "name": "Splashy",
+      "name": "Leafrex",
       "spriteFile": "Combomon Assets/sprites/sprite_045.png",
-      "type": "Water",
+      "type": "Grass",
       "evolution": "Base",
       "personality": "Cuddly",
       "region": "Proto"
     },
     {
       "number": 46,
-      "name": "Wavecrest",
+      "name": "Merwave",
       "spriteFile": "Combomon Assets/sprites/sprite_046.png",
       "type": "Water",
       "evolution": 2,
@@ -416,7 +416,7 @@
     },
     {
       "number": 47,
-      "name": "Beetlebud",
+      "name": "Beetlebuddy",
       "spriteFile": "Combomon Assets/sprites/sprite_047.png",
       "type": "Bug",
       "evolution": "Base",
@@ -425,7 +425,7 @@
     },
     {
       "number": 48,
-      "name": "Beetleguard",
+      "name": "Beetlebrother",
       "spriteFile": "Combomon Assets/sprites/sprite_048.png",
       "type": "Bug",
       "evolution": 1,
@@ -434,7 +434,7 @@
     },
     {
       "number": 49,
-      "name": "Beetleking",
+      "name": "Beetledad",
       "spriteFile": "Combomon Assets/sprites/sprite_049.png",
       "type": "Bug",
       "evolution": 2,
@@ -443,7 +443,7 @@
     },
     {
       "number": 50,
-      "name": "Flameling",
+      "name": "Flameddy",
       "spriteFile": "Combomon Assets/sprites/sprite_050.png",
       "type": "Fire",
       "evolution": "Base",
@@ -452,7 +452,7 @@
     },
     {
       "number": 51,
-      "name": "Blazequill",
+      "name": "Blazerex",
       "spriteFile": "Combomon Assets/sprites/sprite_051.png",
       "type": "Fire",
       "evolution": 2,
@@ -461,7 +461,7 @@
     },
     {
       "number": 52,
-      "name": "Mosslet",
+      "name": "Shroomlet",
       "spriteFile": "Combomon Assets/sprites/sprite_052.png",
       "type": "Grass",
       "evolution": "Base",
@@ -470,7 +470,7 @@
     },
     {
       "number": 53,
-      "name": "Mossrock",
+      "name": "Mothleaf",
       "spriteFile": "Combomon Assets/sprites/sprite_053.png",
       "type": "Grass",
       "evolution": 2,
@@ -479,7 +479,7 @@
     },
     {
       "number": 54,
-      "name": "Zapwing",
+      "name": "Zippyzap",
       "spriteFile": "Combomon Assets/sprites/sprite_054.png",
       "type": "Electric",
       "evolution": "Base",
@@ -488,7 +488,7 @@
     },
     {
       "number": 55,
-      "name": "Thunderbird",
+      "name": "Ospreyvolt",
       "spriteFile": "Combomon Assets/sprites/sprite_055.png",
       "type": "Electric",
       "evolution": 2,
@@ -497,16 +497,16 @@
     },
     {
       "number": 56,
-      "name": "Mistpuff",
+      "name": "Derpig",
       "spriteFile": "Combomon Assets/sprites/sprite_056.png",
-      "type": "Water",
+      "type": "Grass",
       "evolution": "Base",
       "personality": "Friendly",
       "region": "Farmlar"
     },
     {
       "number": 57,
-      "name": "Fogdrift",
+      "name": "Waterzor",
       "spriteFile": "Combomon Assets/sprites/sprite_057.png",
       "type": "Water",
       "evolution": 2,
@@ -515,7 +515,7 @@
     },
     {
       "number": 58,
-      "name": "Webbit",
+      "name": "Spitworm",
       "spriteFile": "Combomon Assets/sprites/sprite_058.png",
       "type": "Bug",
       "evolution": "Base",
@@ -524,7 +524,7 @@
     },
     {
       "number": 59,
-      "name": "Silkspinner",
+      "name": "Cloudfly",
       "spriteFile": "Combomon Assets/sprites/sprite_059.png",
       "type": "Bug",
       "evolution": 2,
@@ -533,7 +533,7 @@
     },
     {
       "number": 60,
-      "name": "Coalbit",
+      "name": "Swirlwisp",
       "spriteFile": "Combomon Assets/sprites/sprite_060.png",
       "type": "Fire",
       "evolution": "Base",
@@ -542,7 +542,7 @@
     },
     {
       "number": 61,
-      "name": "Coalburn",
+      "name": "Industrigon",
       "spriteFile": "Combomon Assets/sprites/sprite_061.png",
       "type": "Fire",
       "evolution": 1,
@@ -551,7 +551,7 @@
     },
     {
       "number": 62,
-      "name": "Coalbeast",
+      "name": "Cawflame",
       "spriteFile": "Combomon Assets/sprites/sprite_062.png",
       "type": "Fire",
       "evolution": 2,
@@ -560,7 +560,7 @@
     },
     {
       "number": 63,
-      "name": "Vinewhip",
+      "name": "Chickadot",
       "spriteFile": "Combomon Assets/sprites/sprite_063.png",
       "type": "Grass",
       "evolution": "Base",
@@ -569,7 +569,7 @@
     },
     {
       "number": 64,
-      "name": "Vinelash",
+      "name": "Treenaught",
       "spriteFile": "Combomon Assets/sprites/sprite_064.png",
       "type": "Grass",
       "evolution": 2,
@@ -578,7 +578,7 @@
     },
     {
       "number": 65,
-      "name": "Chargebit",
+      "name": "Chargeba",
       "spriteFile": "Combomon Assets/sprites/sprite_065.png",
       "type": "Electric",
       "evolution": "Base",
@@ -587,7 +587,7 @@
     },
     {
       "number": 66,
-      "name": "Voltcharge",
+      "name": "Verbolt",
       "spriteFile": "Combomon Assets/sprites/sprite_066.png",
       "type": "Electric",
       "evolution": 2,
@@ -596,7 +596,7 @@
     },
     {
       "number": 67,
-      "name": "Puddlet",
+      "name": "Mudpud",
       "spriteFile": "Combomon Assets/sprites/sprite_067.png",
       "type": "Water",
       "evolution": "Base",
@@ -605,7 +605,7 @@
     },
     {
       "number": 68,
-      "name": "Lakeling",
+      "name": "Shellacle",
       "spriteFile": "Combomon Assets/sprites/sprite_068.png",
       "type": "Water",
       "evolution": 2,
@@ -614,7 +614,7 @@
     },
     {
       "number": 69,
-      "name": "Cocoonix",
+      "name": "Raptbug",
       "spriteFile": "Combomon Assets/sprites/sprite_069.png",
       "type": "Bug",
       "evolution": "Base",
@@ -623,7 +623,7 @@
     },
     {
       "number": 70,
-      "name": "Butterflight",
+      "name": "Karatabug",
       "spriteFile": "Combomon Assets/sprites/sprite_070.png",
       "type": "Bug",
       "evolution": 2,
@@ -632,7 +632,7 @@
     },
     {
       "number": 71,
-      "name": "Sparkflame",
+      "name": "Flameflight",
       "spriteFile": "Combomon Assets/sprites/sprite_071.png",
       "type": "Fire",
       "evolution": "Base",
@@ -641,7 +641,7 @@
     },
     {
       "number": 72,
-      "name": "Wildferno",
+      "name": "Fernobettle",
       "spriteFile": "Combomon Assets/sprites/sprite_072.png",
       "type": "Fire",
       "evolution": 2,
@@ -650,16 +650,16 @@
     },
     {
       "number": 73,
-      "name": "Fernling",
+      "name": "Clawby",
       "spriteFile": "Combomon Assets/sprites/sprite_073.png",
-      "type": "Grass",
+      "type": "Bug",
       "evolution": "Base",
       "personality": "Loyal",
       "region": "Vinova"
     },
     {
       "number": 74,
-      "name": "Fernbeast",
+      "name": "Pollive",
       "spriteFile": "Combomon Assets/sprites/sprite_074.png",
       "type": "Grass",
       "evolution": 2,
@@ -668,7 +668,7 @@
     },
     {
       "number": 75,
-      "name": "Zapbit",
+      "name": "Bitzap",
       "spriteFile": "Combomon Assets/sprites/sprite_075.png",
       "type": "Electric",
       "evolution": "Base",
@@ -677,16 +677,16 @@
     },
     {
       "number": 76,
-      "name": "Zapster",
+      "name": "Corjewel",
       "spriteFile": "Combomon Assets/sprites/sprite_076.png",
-      "type": "Electric",
+      "type": "Water",
       "evolution": 2,
       "personality": "Cuddly",
       "region": "Proto"
     },
     {
       "number": 77,
-      "name": "Coralbit",
+      "name": "Lipfin",
       "spriteFile": "Combomon Assets/sprites/sprite_077.png",
       "type": "Water",
       "evolution": "Base",
@@ -695,7 +695,7 @@
     },
     {
       "number": 78,
-      "name": "Coralreef",
+      "name": "Coralclaw",
       "spriteFile": "Combomon Assets/sprites/sprite_078.png",
       "type": "Water",
       "evolution": 2,
@@ -704,25 +704,25 @@
     },
     {
       "number": 79,
-      "name": "Pillarbug",
+      "name": "Zapdin",
       "spriteFile": "Combomon Assets/sprites/sprite_079.png",
-      "type": "Bug",
+      "type": "Electric",
       "evolution": "Base",
       "personality": "Moody",
       "region": "Saliose City"
     },
     {
       "number": 80,
-      "name": "Grubble",
+      "name": "Brafish",
       "spriteFile": "Combomon Assets/sprites/sprite_080.png",
-      "type": "Bug",
+      "type": "Water",
       "evolution": 2,
       "personality": "Moody",
       "region": "Saliose City"
     },
     {
       "number": 81,
-      "name": "Lavabit",
+      "name": "Pinchflame",
       "spriteFile": "Combomon Assets/sprites/sprite_081.png",
       "type": "Fire",
       "evolution": "Base",
@@ -731,7 +731,7 @@
     },
     {
       "number": 82,
-      "name": "Magmatter",
+      "name": "Smokesaur",
       "spriteFile": "Combomon Assets/sprites/sprite_082.png",
       "type": "Fire",
       "evolution": 2,
@@ -740,7 +740,7 @@
     },
     {
       "number": 83,
-      "name": "Bushling",
+      "name": "Bushbug",
       "spriteFile": "Combomon Assets/sprites/sprite_083.png",
       "type": "Grass",
       "evolution": "Base",
@@ -749,7 +749,7 @@
     },
     {
       "number": 84,
-      "name": "Hedgefox",
+      "name": "Wizgrass",
       "spriteFile": "Combomon Assets/sprites/sprite_084.png",
       "type": "Grass",
       "evolution": 2,
@@ -758,7 +758,7 @@
     },
     {
       "number": 85,
-      "name": "Ionbit",
+      "name": "Electbit",
       "spriteFile": "Combomon Assets/sprites/sprite_085.png",
       "type": "Electric",
       "evolution": "Base",
@@ -767,7 +767,7 @@
     },
     {
       "number": 86,
-      "name": "Plasmatic",
+      "name": "Derpvolt",
       "spriteFile": "Combomon Assets/sprites/sprite_086.png",
       "type": "Electric",
       "evolution": 2,
@@ -776,7 +776,7 @@
     },
     {
       "number": 87,
-      "name": "Ripplette",
+      "name": "Wavefin",
       "spriteFile": "Combomon Assets/sprites/sprite_087.png",
       "type": "Water",
       "evolution": "Base",
@@ -785,7 +785,7 @@
     },
     {
       "number": 88,
-      "name": "Waverunner",
+      "name": "Aquadog",
       "spriteFile": "Combomon Assets/sprites/sprite_088.png",
       "type": "Water",
       "evolution": 2,
@@ -794,16 +794,16 @@
     },
     {
       "number": 89,
-      "name": "Stinglet",
+      "name": "Finchflame",
       "spriteFile": "Combomon Assets/sprites/sprite_089.png",
-      "type": "Bug",
+      "type": "Fire",
       "evolution": "Base",
       "personality": "Zoomie",
       "region": "Logto"
     },
     {
       "number": 90,
-      "name": "Stinglord",
+      "name": "Mothrod",
       "spriteFile": "Combomon Assets/sprites/sprite_090.png",
       "type": "Bug",
       "evolution": 2,
@@ -812,7 +812,7 @@
     },
     {
       "number": 91,
-      "name": "Hearthling",
+      "name": "Hearthpunk",
       "spriteFile": "Combomon Assets/sprites/sprite_091.png",
       "type": "Fire",
       "evolution": "Base",
@@ -821,7 +821,7 @@
     },
     {
       "number": 92,
-      "name": "Hearthflame",
+      "name": "Hearthking",
       "spriteFile": "Combomon Assets/sprites/sprite_092.png",
       "type": "Fire",
       "evolution": 2,
@@ -830,7 +830,7 @@
     },
     {
       "number": 93,
-      "name": "Chlorobit",
+      "name": "Chlorohorse",
       "spriteFile": "Combomon Assets/sprites/sprite_093.png",
       "type": "Grass",
       "evolution": "Base",
@@ -839,7 +839,7 @@
     },
     {
       "number": 94,
-      "name": "Photosyn",
+      "name": "Chloroworm",
       "spriteFile": "Combomon Assets/sprites/sprite_094.png",
       "type": "Grass",
       "evolution": 2,
@@ -848,7 +848,7 @@
     },
     {
       "number": 95,
-      "name": "Sparkrod",
+      "name": "Sprog",
       "spriteFile": "Combomon Assets/sprites/sprite_095.png",
       "type": "Electric",
       "evolution": "Base",
@@ -857,7 +857,7 @@
     },
     {
       "number": 96,
-      "name": "Boltstaff",
+      "name": "Thundbeak",
       "spriteFile": "Combomon Assets/sprites/sprite_096.png",
       "type": "Electric",
       "evolution": 2,
@@ -866,7 +866,7 @@
     },
     {
       "number": 97,
-      "name": "Dewdrop",
+      "name": "Pinktacle",
       "spriteFile": "Combomon Assets/sprites/sprite_097.png",
       "type": "Water",
       "evolution": "Base",
@@ -875,7 +875,7 @@
     },
     {
       "number": 98,
-      "name": "Raindrift",
+      "name": "Coracle",
       "spriteFile": "Combomon Assets/sprites/sprite_098.png",
       "type": "Water",
       "evolution": 2,
@@ -884,7 +884,7 @@
     },
     {
       "number": 99,
-      "name": "Wasplet",
+      "name": "Fluttlerflower",
       "spriteFile": "Combomon Assets/sprites/sprite_099.png",
       "type": "Bug",
       "evolution": "Base",
@@ -893,7 +893,7 @@
     },
     {
       "number": 100,
-      "name": "Hornetking",
+      "name": "Beetskull",
       "spriteFile": "Combomon Assets/sprites/sprite_100.png",
       "type": "Bug",
       "evolution": 2,
@@ -902,7 +902,7 @@
     },
     {
       "number": 101,
-      "name": "Ignispark",
+      "name": "Embercat",
       "spriteFile": "Combomon Assets/sprites/sprite_101.png",
       "type": "Fire",
       "evolution": "Base",
@@ -911,7 +911,7 @@
     },
     {
       "number": 102,
-      "name": "Blazetorch",
+      "name": "Bontiger",
       "spriteFile": "Combomon Assets/sprites/sprite_102.png",
       "type": "Fire",
       "evolution": 1,
@@ -920,7 +920,7 @@
     },
     {
       "number": 103,
-      "name": "Ivyling",
+      "name": "Scuttlegrass",
       "spriteFile": "Combomon Assets/sprites/sprite_103.png",
       "type": "Grass",
       "evolution": "Base",
@@ -929,7 +929,7 @@
     },
     {
       "number": 104,
-      "name": "Ivytitan",
+      "name": "Leafobra",
       "spriteFile": "Combomon Assets/sprites/sprite_104.png",
       "type": "Grass",
       "evolution": 1,
@@ -938,7 +938,7 @@
     },
     {
       "number": 105,
-      "name": "Amperling",
+      "name": "Metoddler",
       "spriteFile": "Combomon Assets/sprites/sprite_105.png",
       "type": "Electric",
       "evolution": "Base",
@@ -947,7 +947,7 @@
     },
     {
       "number": 106,
-      "name": "Voltstriker",
+      "name": "Sparjoker",
       "spriteFile": "Combomon Assets/sprites/sprite_106.png",
       "type": "Electric",
       "evolution": 1,
@@ -956,7 +956,7 @@
     },
     {
       "number": 107,
-      "name": "Frosting",
+      "name": "Shellmarch",
       "spriteFile": "Combomon Assets/sprites/sprite_107.png",
       "type": "Water",
       "evolution": "Base",
@@ -965,7 +965,7 @@
     },
     {
       "number": 108,
-      "name": "Glacialfin",
+      "name": "Mushbubble",
       "spriteFile": "Combomon Assets/sprites/sprite_108.png",
       "type": "Water",
       "evolution": 1,
@@ -974,7 +974,7 @@
     },
     {
       "number": 109,
-      "name": "Larvling",
+      "name": "Larvairy",
       "spriteFile": "Combomon Assets/sprites/sprite_109.png",
       "type": "Bug",
       "evolution": "Base",
@@ -983,7 +983,7 @@
     },
     {
       "number": 110,
-      "name": "Chrysalux",
+      "name": "Derpbug",
       "spriteFile": "Combomon Assets/sprites/sprite_110.png",
       "type": "Bug",
       "evolution": 1,
@@ -992,7 +992,7 @@
     },
     {
       "number": 111,
-      "name": "Phoenixlet",
+      "name": "Pinchfantry",
       "spriteFile": "Combomon Assets/sprites/sprite_111.png",
       "type": "Fire",
       "evolution": "Base",
@@ -1001,7 +1001,7 @@
     },
     {
       "number": 112,
-      "name": "Phoenixborn",
+      "name": "Hearthbro",
       "spriteFile": "Combomon Assets/sprites/sprite_112.png",
       "type": "Fire",
       "evolution": 1,
@@ -1010,7 +1010,7 @@
     },
     {
       "number": 113,
-      "name": "Rootbit",
+      "name": "Petaljump",
       "spriteFile": "Combomon Assets/sprites/sprite_113.png",
       "type": "Grass",
       "evolution": "Base",
@@ -1019,7 +1019,7 @@
     },
     {
       "number": 114,
-      "name": "Rootbark",
+      "name": "Leafgrape",
       "spriteFile": "Combomon Assets/sprites/sprite_114.png",
       "type": "Grass",
       "evolution": 1,
@@ -1028,7 +1028,7 @@
     },
     {
       "number": 115,
-      "name": "Tesling",
+      "name": "Electafog",
       "spriteFile": "Combomon Assets/sprites/sprite_115.png",
       "type": "Electric",
       "evolution": "Base",
@@ -1037,7 +1037,7 @@
     },
     {
       "number": 116,
-      "name": "Teslacoil",
+      "name": "Sparkroll",
       "spriteFile": "Combomon Assets/sprites/sprite_116.png",
       "type": "Electric",
       "evolution": 1,
@@ -1046,7 +1046,7 @@
     },
     {
       "number": 117,
-      "name": "Geyserpup",
+      "name": "Krakbit",
       "spriteFile": "Combomon Assets/sprites/sprite_117.png",
       "type": "Water",
       "evolution": "Base",
@@ -1055,7 +1055,7 @@
     },
     {
       "number": 118,
-      "name": "Geyserhound",
+      "name": "Beamfin",
       "spriteFile": "Combomon Assets/sprites/sprite_118.png",
       "type": "Water",
       "evolution": 1,
@@ -1064,7 +1064,7 @@
     },
     {
       "number": 119,
-      "name": "Mantisling",
+      "name": "Starisect",
       "spriteFile": "Combomon Assets/sprites/sprite_119.png",
       "type": "Bug",
       "evolution": "Base",
@@ -1073,7 +1073,7 @@
     },
     {
       "number": 120,
-      "name": "Mantislash",
+      "name": "Pinkthing",
       "spriteFile": "Combomon Assets/sprites/sprite_120.png",
       "type": "Bug",
       "evolution": 1,
@@ -1082,7 +1082,7 @@
     },
     {
       "number": 121,
-      "name": "Blazetail",
+      "name": "Blazuto",
       "spriteFile": "Combomon Assets/sprites/sprite_121.png",
       "type": "Fire",
       "evolution": "Base",
@@ -1091,7 +1091,7 @@
     },
     {
       "number": 122,
-      "name": "Infertail",
+      "name": "Blazillo",
       "spriteFile": "Combomon Assets/sprites/sprite_122.png",
       "type": "Fire",
       "evolution": 1,
@@ -1100,7 +1100,7 @@
     },
     {
       "number": 123,
-      "name": "Bamboozle",
+      "name": "Lettpuff",
       "spriteFile": "Combomon Assets/sprites/sprite_123.png",
       "type": "Grass",
       "evolution": "Base",
@@ -1109,7 +1109,7 @@
     },
     {
       "number": 124,
-      "name": "Bambrawler",
+      "name": "Lettolescent",
       "spriteFile": "Combomon Assets/sprites/sprite_124.png",
       "type": "Grass",
       "evolution": 1,
@@ -1118,7 +1118,7 @@
     },
     {
       "number": 125,
-      "name": "Shockfur",
+      "name": "Scorpispark",
       "spriteFile": "Combomon Assets/sprites/sprite_125.png",
       "type": "Electric",
       "evolution": "Base",
@@ -1127,7 +1127,7 @@
     },
     {
       "number": 126,
-      "name": "Thundermane",
+      "name": "Spikespark",
       "spriteFile": "Combomon Assets/sprites/sprite_126.png",
       "type": "Electric",
       "evolution": 1,
@@ -1136,7 +1136,7 @@
     },
     {
       "number": 127,
-      "name": "Reefseed",
+      "name": "Bitepink",
       "spriteFile": "Combomon Assets/sprites/sprite_127.png",
       "type": "Water",
       "evolution": "Base",
@@ -1145,7 +1145,7 @@
     },
     {
       "number": 128,
-      "name": "Reefguard",
+      "name": "Tideguard",
       "spriteFile": "Combomon Assets/sprites/sprite_128.png",
       "type": "Water",
       "evolution": 1,
@@ -1154,7 +1154,7 @@
     },
     {
       "number": 129,
-      "name": "Dragonfly",
+      "name": "Wideye",
       "spriteFile": "Combomon Assets/sprites/sprite_129.png",
       "type": "Bug",
       "evolution": "Base",
@@ -1163,7 +1163,7 @@
     },
     {
       "number": 130,
-      "name": "Dragonwing",
+      "name": "Slicesect",
       "spriteFile": "Combomon Assets/sprites/sprite_130.png",
       "type": "Bug",
       "evolution": 1,
@@ -1172,7 +1172,7 @@
     },
     {
       "number": 131,
-      "name": "Emberling",
+      "name": "Ashosaur",
       "spriteFile": "Combomon Assets/sprites/sprite_131.png",
       "type": "Fire",
       "evolution": "Base",
@@ -1181,7 +1181,7 @@
     },
     {
       "number": 132,
-      "name": "Embermage",
+      "name": "Flameosaur",
       "spriteFile": "Combomon Assets/sprites/sprite_132.png",
       "type": "Fire",
       "evolution": 1,
@@ -1190,7 +1190,7 @@
     },
     {
       "number": 133,
-      "name": "Saplette",
+      "name": "Grassfish",
       "spriteFile": "Combomon Assets/sprites/sprite_133.png",
       "type": "Grass",
       "evolution": "Base",
@@ -1199,7 +1199,7 @@
     },
     {
       "number": 134,
-      "name": "Sapwood",
+      "name": "Sumoseed",
       "spriteFile": "Combomon Assets/sprites/sprite_134.png",
       "type": "Grass",
       "evolution": 1,
@@ -1208,7 +1208,7 @@
     },
     {
       "number": 135,
-      "name": "Voltfang",
+      "name": "Sparkpinch",
       "spriteFile": "Combomon Assets/sprites/sprite_135.png",
       "type": "Electric",
       "evolution": "Base",
@@ -1217,7 +1217,7 @@
     },
     {
       "number": 136,
-      "name": "Boltbite",
+      "name": "Amptile",
       "spriteFile": "Combomon Assets/sprites/sprite_136.png",
       "type": "Electric",
       "evolution": 1,
@@ -1226,16 +1226,16 @@
     },
     {
       "number": 137,
-      "name": "Typhoonlet",
+      "name": "Tentapetals",
       "spriteFile": "Combomon Assets/sprites/sprite_137.png",
-      "type": "Water",
+      "type": "Bug",
       "evolution": "Base",
       "personality": "Zoomie",
       "region": "Logto"
     },
     {
       "number": 138,
-      "name": "Stormwave",
+      "name": "Sealtot",
       "spriteFile": "Combomon Assets/sprites/sprite_138.png",
       "type": "Water",
       "evolution": 1,
@@ -1244,7 +1244,7 @@
     },
     {
       "number": 139,
-      "name": "Mothlet",
+      "name": "Flytot",
       "spriteFile": "Combomon Assets/sprites/sprite_139.png",
       "type": "Bug",
       "evolution": "Base",
@@ -1253,7 +1253,7 @@
     },
     {
       "number": 140,
-      "name": "Lumimoth",
+      "name": "Bemummy",
       "spriteFile": "Combomon Assets/sprites/sprite_140.png",
       "type": "Bug",
       "evolution": 1,
@@ -1262,7 +1262,7 @@
     },
     {
       "number": 141,
-      "name": "Wildfire",
+      "name": "Kitflame",
       "spriteFile": "Combomon Assets/sprites/sprite_141.png",
       "type": "Fire",
       "evolution": "Base",
@@ -1271,7 +1271,7 @@
     },
     {
       "number": 142,
-      "name": "Firewhirl",
+      "name": "Scorchwing",
       "spriteFile": "Combomon Assets/sprites/sprite_142.png",
       "type": "Fire",
       "evolution": 1,
@@ -1280,7 +1280,7 @@
     },
     {
       "number": 143,
-      "name": "Nutsprout",
+      "name": "Spraptor",
       "spriteFile": "Combomon Assets/sprites/sprite_143.png",
       "type": "Grass",
       "evolution": "Base",
@@ -1289,7 +1289,7 @@
     },
     {
       "number": 144,
-      "name": "Acornguard",
+      "name": "Clodspike",
       "spriteFile": "Combomon Assets/sprites/sprite_144.png",
       "type": "Grass",
       "evolution": 1,
@@ -1298,16 +1298,16 @@
     },
     {
       "number": 145,
-      "name": "Staticlion",
+      "name": "Gardtooth",
       "spriteFile": "Combomon Assets/sprites/sprite_145.png",
-      "type": "Electric",
+      "type": "Grass",
       "evolution": "Base",
       "personality": "Loyal",
       "region": "Vinova"
     },
     {
       "number": 146,
-      "name": "Boltlion",
+      "name": "Chunkbolt",
       "spriteFile": "Combomon Assets/sprites/sprite_146.png",
       "type": "Electric",
       "evolution": 1,
@@ -1316,7 +1316,7 @@
     },
     {
       "number": 147,
-      "name": "Whirlpoolette",
+      "name": "Hornfin",
       "spriteFile": "Combomon Assets/sprites/sprite_147.png",
       "type": "Water",
       "evolution": "Base",
@@ -1325,7 +1325,7 @@
     },
     {
       "number": 148,
-      "name": "Maelstrom",
+      "name": "Squiblue",
       "spriteFile": "Combomon Assets/sprites/sprite_148.png",
       "type": "Water",
       "evolution": 1,
@@ -1334,7 +1334,7 @@
     },
     {
       "number": 149,
-      "name": "Scarabyte",
+      "name": "Snubten",
       "spriteFile": "Combomon Assets/sprites/sprite_149.png",
       "type": "Bug",
       "evolution": "Base",
@@ -1343,16 +1343,16 @@
     },
     {
       "number": 150,
-      "name": "Scarabanc",
+      "name": "Conductenna",
       "spriteFile": "Combomon Assets/sprites/sprite_150.png",
-      "type": "Bug",
+      "type": "Electric",
       "evolution": 1,
       "personality": "Loyal",
       "region": "Vinova"
     },
     {
       "number": 151,
-      "name": "Volcorex",
+      "name": "Infernicken",
       "spriteFile": "Combomon Assets/sprites/sprite_151.png",
       "type": "Fire",
       "evolution": 2,
@@ -1361,7 +1361,7 @@
     },
     {
       "number": 152,
-      "name": "Chitinmite",
+      "name": "Twistmite",
       "spriteFile": "Combomon Assets/sprites/sprite_152.png",
       "type": "Bug",
       "evolution": "Base",
@@ -1370,7 +1370,7 @@
     },
     {
       "number": 153,
-      "name": "Flamerex",
+      "name": "Burnitty",
       "spriteFile": "Combomon Assets/sprites/sprite_153.png",
       "type": "Fire",
       "evolution": 1,
@@ -1379,7 +1379,7 @@
     },
     {
       "number": 154,
-      "name": "Leafking",
+      "name": "Krakleaf",
       "spriteFile": "Combomon Assets/sprites/sprite_154.png",
       "type": "Grass",
       "evolution": 2,
@@ -1388,7 +1388,7 @@
     },
     {
       "number": 155,
-      "name": "Chargetot",
+      "name": "Chargiclaw",
       "spriteFile": "Combomon Assets/sprites/sprite_155.png",
       "type": "Electric",
       "evolution": "Base",
@@ -1397,7 +1397,7 @@
     },
     {
       "number": 156,
-      "name": "Currention",
+      "name": "Currentacle",
       "spriteFile": "Combomon Assets/sprites/sprite_156.png",
       "type": "Water",
       "evolution": 1,
@@ -1406,7 +1406,7 @@
     },
     {
       "number": 157,
-      "name": "Hivetron",
+      "name": "Elsmoth",
       "spriteFile": "Combomon Assets/sprites/sprite_157.png",
       "type": "Bug",
       "evolution": 2,
@@ -1415,7 +1415,7 @@
     },
     {
       "number": 158,
-      "name": "Scorchling",
+      "name": "Flamevine",
       "spriteFile": "Combomon Assets/sprites/sprite_158.png",
       "type": "Fire",
       "evolution": "Base",
@@ -1424,7 +1424,7 @@
     },
     {
       "number": 159,
-      "name": "Vinedash",
+      "name": "Conepod",
       "spriteFile": "Combomon Assets/sprites/sprite_159.png",
       "type": "Grass",
       "evolution": 1,
@@ -1433,7 +1433,7 @@
     },
     {
       "number": 160,
-      "name": "Chargemax",
+      "name": "Chargerex",
       "spriteFile": "Combomon Assets/sprites/sprite_160.png",
       "type": "Electric",
       "evolution": 2,
@@ -1442,16 +1442,16 @@
     },
     {
       "number": 161,
-      "name": "Splashling",
+      "name": "Volteel",
       "spriteFile": "Combomon Assets/sprites/sprite_161.png",
-      "type": "Water",
+      "type": "Electric",
       "evolution": "Base",
       "personality": "Friendly",
       "region": "Saliose City"
     },
     {
       "number": 162,
-      "name": "Buzzrex",
+      "name": "Pinkbeak",
       "spriteFile": "Combomon Assets/sprites/sprite_162.png",
       "type": "Bug",
       "evolution": 1,
@@ -1460,7 +1460,7 @@
     },
     {
       "number": 163,
-      "name": "Scorchlord",
+      "name": "Swiftflame",
       "spriteFile": "Combomon Assets/sprites/sprite_163.png",
       "type": "Fire",
       "evolution": 2,
@@ -1469,25 +1469,25 @@
     },
     {
       "number": 164,
-      "name": "Seedtot",
+      "name": "Tootfish",
       "spriteFile": "Combomon Assets/sprites/sprite_164.png",
-      "type": "Grass",
+      "type": "Water",
       "evolution": "Base",
       "personality": "Zoomie",
       "region": "Farmlar"
     },
     {
       "number": 165,
-      "name": "Chargedash",
+      "name": "Mothtot",
       "spriteFile": "Combomon Assets/sprites/sprite_165.png",
-      "type": "Electric",
+      "type": "Bug",
       "evolution": 1,
       "personality": "Zoomie",
       "region": "Vinova"
     },
     {
       "number": 166,
-      "name": "Splashtron",
+      "name": "Splashino",
       "spriteFile": "Combomon Assets/sprites/sprite_166.png",
       "type": "Water",
       "evolution": 2,
@@ -1496,7 +1496,7 @@
     },
     {
       "number": 167,
-      "name": "Buzzling",
+      "name": "Bunnwing",
       "spriteFile": "Combomon Assets/sprites/sprite_167.png",
       "type": "Bug",
       "evolution": "Base",
@@ -1505,16 +1505,16 @@
     },
     {
       "number": 168,
-      "name": "Infernoara",
+      "name": "Axlittle",
       "spriteFile": "Combomon Assets/sprites/sprite_168.png",
-      "type": "Fire",
+      "type": "Water",
       "evolution": 1,
       "personality": "Moody",
       "region": "Proto"
     },
     {
       "number": 169,
-      "name": "Bloomlord",
+      "name": "Frozbeetle",
       "spriteFile": "Combomon Assets/sprites/sprite_169.png",
       "type": "Grass",
       "evolution": 2,
@@ -1523,7 +1523,7 @@
     },
     {
       "number": 170,
-      "name": "Chargelet",
+      "name": "Eyelectric",
       "spriteFile": "Combomon Assets/sprites/sprite_170.png",
       "type": "Electric",
       "evolution": "Base",
@@ -1532,7 +1532,7 @@
     },
     {
       "number": 171,
-      "name": "Waverex",
+      "name": "Tardiwave",
       "spriteFile": "Combomon Assets/sprites/sprite_171.png",
       "type": "Water",
       "evolution": 1,
@@ -1541,7 +1541,7 @@
     },
     {
       "number": 172,
-      "name": "Crawlzor",
+      "name": "Divifly",
       "spriteFile": "Combomon Assets/sprites/sprite_172.png",
       "type": "Bug",
       "evolution": 2,
@@ -1550,7 +1550,7 @@
     },
     {
       "number": 173,
-      "name": "Scorchmite",
+      "name": "Scorchblue",
       "spriteFile": "Combomon Assets/sprites/sprite_173.png",
       "type": "Fire",
       "evolution": "Base",
@@ -1559,7 +1559,7 @@
     },
     {
       "number": 174,
-      "name": "Seedara",
+      "name": "Seedfantry",
       "spriteFile": "Combomon Assets/sprites/sprite_174.png",
       "type": "Grass",
       "evolution": 1,
@@ -1568,16 +1568,16 @@
     },
     {
       "number": 175,
-      "name": "Chargeking",
+      "name": "Vinestare",
       "spriteFile": "Combomon Assets/sprites/sprite_175.png",
-      "type": "Electric",
+      "type": "Grass",
       "evolution": 2,
       "personality": "Loyal",
       "region": "Vinova"
     },
     {
       "number": 176,
-      "name": "Currentmite",
+      "name": "Coralscuttle",
       "spriteFile": "Combomon Assets/sprites/sprite_176.png",
       "type": "Water",
       "evolution": "Base",
@@ -1586,7 +1586,7 @@
     },
     {
       "number": 177,
-      "name": "Chitindash",
+      "name": "Roargray",
       "spriteFile": "Combomon Assets/sprites/sprite_177.png",
       "type": "Bug",
       "evolution": 1,
@@ -1595,16 +1595,16 @@
     },
     {
       "number": 178,
-      "name": "Scorchtron",
+      "name": "Psyjelly",
       "spriteFile": "Combomon Assets/sprites/sprite_178.png",
-      "type": "Fire",
+      "type": "Water",
       "evolution": 2,
       "personality": "Cuddly",
       "region": "Logto"
     },
     {
       "number": 179,
-      "name": "Rootlet",
+      "name": "Pollet",
       "spriteFile": "Combomon Assets/sprites/sprite_179.png",
       "type": "Grass",
       "evolution": "Base",
@@ -1613,7 +1613,7 @@
     },
     {
       "number": 180,
-      "name": "Sparkara",
+      "name": "Buzzbee",
       "spriteFile": "Combomon Assets/sprites/sprite_180.png",
       "type": "Electric",
       "evolution": 1,
@@ -1622,7 +1622,7 @@
     },
     {
       "number": 181,
-      "name": "Wavemax",
+      "name": "Oractacle",
       "spriteFile": "Combomon Assets/sprites/sprite_181.png",
       "type": "Water",
       "evolution": 2,
@@ -1631,7 +1631,7 @@
     },
     {
       "number": 182,
-      "name": "Hivetot",
+      "name": "Parrogreen",
       "spriteFile": "Combomon Assets/sprites/sprite_182.png",
       "type": "Bug",
       "evolution": "Base",
@@ -1640,7 +1640,7 @@
     },
     {
       "number": 183,
-      "name": "Infernomon",
+      "name": "Enflamebit",
       "spriteFile": "Combomon Assets/sprites/sprite_183.png",
       "type": "Fire",
       "evolution": 1,
@@ -1649,7 +1649,7 @@
     },
     {
       "number": 184,
-      "name": "Bloommax",
+      "name": "Livicone",
       "spriteFile": "Combomon Assets/sprites/sprite_184.png",
       "type": "Grass",
       "evolution": 2,
@@ -1658,16 +1658,16 @@
     },
     {
       "number": 185,
-      "name": "Beamite",
+      "name": "Mittfly",
       "spriteFile": "Combomon Assets/sprites/sprite_185.png",
-      "type": "Electric",
+      "type": "Grass",
       "evolution": "Base",
       "personality": "Loyal",
       "region": "Logto"
     },
     {
       "number": 186,
-      "name": "Aquaara",
+      "name": "Seaken",
       "spriteFile": "Combomon Assets/sprites/sprite_186.png",
       "type": "Water",
       "evolution": 1,
@@ -1676,16 +1676,16 @@
     },
     {
       "number": 187,
-      "name": "Antennalord",
+      "name": "Hyenabeam",
       "spriteFile": "Combomon Assets/sprites/sprite_187.png",
-      "type": "Bug",
+      "type": "Electric",
       "evolution": 2,
       "personality": "Loyal",
       "region": "Logto"
     },
     {
       "number": 188,
-      "name": "Flamepup",
+      "name": "Firodent",
       "spriteFile": "Combomon Assets/sprites/sprite_188.png",
       "type": "Fire",
       "evolution": "Base",
@@ -1694,7 +1694,7 @@
     },
     {
       "number": 189,
-      "name": "Rootmon",
+      "name": "Petalgorgon",
       "spriteFile": "Combomon Assets/sprites/sprite_189.png",
       "type": "Grass",
       "evolution": 1,
@@ -1703,7 +1703,7 @@
     },
     {
       "number": 190,
-      "name": "Thundertron",
+      "name": "Electrosaur",
       "spriteFile": "Combomon Assets/sprites/sprite_190.png",
       "type": "Electric",
       "evolution": 2,
@@ -1712,7 +1712,7 @@
     },
     {
       "number": 191,
-      "name": "Tidepup",
+      "name": "Braincrab",
       "spriteFile": "Combomon Assets/sprites/sprite_191.png",
       "type": "Water",
       "evolution": "Base",
@@ -1721,7 +1721,7 @@
     },
     {
       "number": 192,
-      "name": "Buzzdash",
+      "name": "Dolfshell",
       "spriteFile": "Combomon Assets/sprites/sprite_192.png",
       "type": "Bug",
       "evolution": 1,
@@ -1730,7 +1730,7 @@
     },
     {
       "number": 193,
-      "name": "Flamemax",
+      "name": "Firbirsaur",
       "spriteFile": "Combomon Assets/sprites/sprite_193.png",
       "type": "Fire",
       "evolution": 2,
@@ -1739,7 +1739,7 @@
     },
     {
       "number": 194,
-      "name": "Leafmite",
+      "name": "Clackalawn",
       "spriteFile": "Combomon Assets/sprites/sprite_194.png",
       "type": "Grass",
       "evolution": "Base",
@@ -1748,7 +1748,7 @@
     },
     {
       "number": 195,
-      "name": "Sparkdash",
+      "name": "Lightningwing",
       "spriteFile": "Combomon Assets/sprites/sprite_195.png",
       "type": "Electric",
       "evolution": 1,
@@ -1757,7 +1757,7 @@
     },
     {
       "number": 196,
-      "name": "Splashking",
+      "name": "Splashazam",
       "spriteFile": "Combomon Assets/sprites/sprite_196.png",
       "type": "Water",
       "evolution": 2,
@@ -1766,7 +1766,7 @@
     },
     {
       "number": 197,
-      "name": "Crawlmite",
+      "name": "Slinkabug",
       "spriteFile": "Combomon Assets/sprites/sprite_197.png",
       "type": "Bug",
       "evolution": "Base",
@@ -1775,7 +1775,7 @@
     },
     {
       "number": 198,
-      "name": "Blazeara",
+      "name": "Smokespew",
       "spriteFile": "Combomon Assets/sprites/sprite_198.png",
       "type": "Fire",
       "evolution": 1,
@@ -1784,25 +1784,25 @@
     },
     {
       "number": 199,
-      "name": "Vineking",
+      "name": "Flamescale",
       "spriteFile": "Combomon Assets/sprites/sprite_199.png",
-      "type": "Grass",
+      "type": "Fire",
       "evolution": 2,
       "personality": "Friendly",
       "region": "Saliose City"
     },
     {
       "number": 200,
-      "name": "ChargeBeamtron",
+      "name": "Bloopeye",
       "spriteFile": "Combomon Assets/sprites/sprite_200.png",
-      "type": "Electric",
+      "type": "Water",
       "evolution": "Base",
       "personality": "Friendly",
       "region": "Farmlar"
     },
     {
       "number": 201,
-      "name": "Aquamon",
+      "name": "Mermeye",
       "spriteFile": "Combomon Assets/sprites/sprite_201.png",
       "type": "Water",
       "evolution": 1,
@@ -1811,16 +1811,16 @@
     },
     {
       "number": 202,
-      "name": "Buzzzor",
+      "name": "Halobuzz",
       "spriteFile": "Combomon Assets/sprites/sprite_202.png",
-      "type": "Bug",
+      "type": "Electric",
       "evolution": 2,
       "personality": "Cuddly",
       "region": "Vinova"
     },
     {
       "number": 203,
-      "name": "Infernomite",
+      "name": "Inferluki",
       "spriteFile": "Combomon Assets/sprites/sprite_203.png",
       "type": "Fire",
       "evolution": "Base",
@@ -1829,7 +1829,7 @@
     },
     {
       "number": 204,
-      "name": "Rootion",
+      "name": "Nightleaf",
       "spriteFile": "Combomon Assets/sprites/sprite_204.png",
       "type": "Grass",
       "evolution": 1,
@@ -1838,7 +1838,7 @@
     },
     {
       "number": 205,
-      "name": "Thundermax",
+      "name": "Stormcloudio",
       "spriteFile": "Combomon Assets/sprites/sprite_205.png",
       "type": "Electric",
       "evolution": 2,
@@ -1847,7 +1847,7 @@
     },
     {
       "number": 206,
-      "name": "Aquamite",
+      "name": "Aquarine",
       "spriteFile": "Combomon Assets/sprites/sprite_206.png",
       "type": "Water",
       "evolution": "Base",
@@ -1856,7 +1856,7 @@
     },
     {
       "number": 207,
-      "name": "Hivemon",
+      "name": "Blubberspot",
       "spriteFile": "Combomon Assets/sprites/sprite_207.png",
       "type": "Bug",
       "evolution": 1,
@@ -1865,7 +1865,7 @@
     },
     {
       "number": 208,
-      "name": "Embertron",
+      "name": "Krakember",
       "spriteFile": "Combomon Assets/sprites/sprite_208.png",
       "type": "Fire",
       "evolution": 2,
@@ -1874,7 +1874,7 @@
     },
     {
       "number": 209,
-      "name": "Vinepup",
+      "name": "Shroomies",
       "spriteFile": "Combomon Assets/sprites/sprite_209.png",
       "type": "Grass",
       "evolution": "Base",
@@ -1883,7 +1883,7 @@
     },
     {
       "number": 210,
-      "name": "Thunderdash",
+      "name": "Alakatentacle",
       "spriteFile": "Combomon Assets/sprites/sprite_210.png",
       "type": "Electric",
       "evolution": 1,
@@ -1892,16 +1892,16 @@
     },
     {
       "number": 211,
-      "name": "Aquazor",
+      "name": "Leafwhirl",
       "spriteFile": "Combomon Assets/sprites/sprite_211.png",
-      "type": "Water",
+      "type": "Grass",
       "evolution": 2,
       "personality": "Friendly",
       "region": "Farmlar"
     },
     {
       "number": 212,
-      "name": "Hivelet",
+      "name": "Hivefly",
       "spriteFile": "Combomon Assets/sprites/sprite_212.png",
       "type": "Bug",
       "evolution": "Base",
@@ -1910,16 +1910,16 @@
     },
     {
       "number": 213,
-      "name": "IgnisForgezor",
+      "name": "Prismfin",
       "spriteFile": "Combomon Assets/sprites/sprite_213.png",
-      "type": "Fire",
+      "type": "Water",
       "evolution": 1,
       "personality": "Loyal",
       "region": "Farmlar"
     },
     {
       "number": 214,
-      "name": "Seedking",
+      "name": "Twistking",
       "spriteFile": "Combomon Assets/sprites/sprite_214.png",
       "type": "Grass",
       "evolution": 2,
@@ -1928,16 +1928,16 @@
     },
     {
       "number": 215,
-      "name": "Chargeling",
+      "name": "Karataplant",
       "spriteFile": "Combomon Assets/sprites/sprite_215.png",
-      "type": "Electric",
+      "type": "Grass",
       "evolution": "Base",
       "personality": "Zoomie",
       "region": "Farmlar"
     },
     {
       "number": 216,
-      "name": "SurfFrosttot",
+      "name": "Frostbitty",
       "spriteFile": "Combomon Assets/sprites/sprite_216.png",
       "type": "Water",
       "evolution": 1,
@@ -1946,16 +1946,16 @@
     },
     {
       "number": 217,
-      "name": "Antennazor",
+      "name": "Thundactyl",
       "spriteFile": "Combomon Assets/sprites/sprite_217.png",
-      "type": "Bug",
+      "type": "Electric",
       "evolution": 2,
       "personality": "Friendly",
       "region": "Vinova"
     },
     {
       "number": 218,
-      "name": "Fernoking",
+      "name": "Fernoswipes",
       "spriteFile": "Combomon Assets/sprites/sprite_218.png",
       "type": "Fire",
       "evolution": "Base",
@@ -1964,7 +1964,7 @@
     },
     {
       "number": 219,
-      "name": "Vineion",
+      "name": "Swamptry",
       "spriteFile": "Combomon Assets/sprites/sprite_219.png",
       "type": "Grass",
       "evolution": 1,
@@ -1973,7 +1973,7 @@
     },
     {
       "number": 220,
-      "name": "Chargetron",
+      "name": "Powerdot",
       "spriteFile": "Combomon Assets/sprites/sprite_220.png",
       "type": "Electric",
       "evolution": 2,
@@ -1982,7 +1982,7 @@
     },
     {
       "number": 221,
-      "name": "Aquatot",
+      "name": "Merspike",
       "spriteFile": "Combomon Assets/sprites/sprite_221.png",
       "type": "Water",
       "evolution": "Base",
@@ -1991,7 +1991,7 @@
     },
     {
       "number": 222,
-      "name": "HornetAntrex",
+      "name": "Purpmoth",
       "spriteFile": "Combomon Assets/sprites/sprite_222.png",
       "type": "Bug",
       "evolution": 1,
@@ -2000,7 +2000,7 @@
     },
     {
       "number": 223,
-      "name": "Flareia",
+      "name": "Flaress",
       "spriteFile": "Combomon Assets/sprites/sprite_223.png",
       "type": "Fire",
       "evolution": 2,
@@ -2009,7 +2009,7 @@
     },
     {
       "number": 224,
-      "name": "Bloomling",
+      "name": "Shroomfly",
       "spriteFile": "Combomon Assets/sprites/sprite_224.png",
       "type": "Grass",
       "evolution": "Base",
@@ -2018,7 +2018,7 @@
     },
     {
       "number": 225,
-      "name": "ThunderTeramax",
+      "name": "Plasmolem",
       "spriteFile": "Combomon Assets/sprites/sprite_225.png",
       "type": "Electric",
       "evolution": 1,
@@ -2027,7 +2027,7 @@
     },
     {
       "number": 226,
-      "name": "Splashzor",
+      "name": "Octobud",
       "spriteFile": "Combomon Assets/sprites/sprite_226.png",
       "type": "Water",
       "evolution": 2,
@@ -2036,7 +2036,7 @@
     },
     {
       "number": 227,
-      "name": "Chitintot",
+      "name": "Octodot",
       "spriteFile": "Combomon Assets/sprites/sprite_227.png",
       "type": "Bug",
       "evolution": "Base",
@@ -2045,7 +2045,7 @@
     },
     {
       "number": 228,
-      "name": "Emberion",
+      "name": "Bonwatch",
       "spriteFile": "Combomon Assets/sprites/sprite_228.png",
       "type": "Fire",
       "evolution": 1,
@@ -2054,7 +2054,7 @@
     },
     {
       "number": 229,
-      "name": "Leaflord",
+      "name": "Smugshroom",
       "spriteFile": "Combomon Assets/sprites/sprite_229.png",
       "type": "Grass",
       "evolution": 2,
@@ -2063,7 +2063,7 @@
     },
     {
       "number": 230,
-      "name": "Thundermite",
+      "name": "Thundbuddy",
       "spriteFile": "Combomon Assets/sprites/sprite_230.png",
       "type": "Electric",
       "evolution": "Base",
@@ -2072,7 +2072,7 @@
     },
     {
       "number": 231,
-      "name": "Wavemon",
+      "name": "Krakfear",
       "spriteFile": "Combomon Assets/sprites/sprite_231.png",
       "type": "Water",
       "evolution": 1,
@@ -2081,7 +2081,7 @@
     },
     {
       "number": 232,
-      "name": "Buzzlord",
+      "name": "Tennapod",
       "spriteFile": "Combomon Assets/sprites/sprite_232.png",
       "type": "Bug",
       "evolution": 2,
@@ -2090,7 +2090,7 @@
     },
     {
       "number": 233,
-      "name": "Infernotot",
+      "name": "Wrestleflame",
       "spriteFile": "Combomon Assets/sprites/sprite_233.png",
       "type": "Fire",
       "evolution": "Base",
@@ -2099,7 +2099,7 @@
     },
     {
       "number": 234,
-      "name": "Vinerex",
+      "name": "Tritenna",
       "spriteFile": "Combomon Assets/sprites/sprite_234.png",
       "type": "Grass",
       "evolution": 1,
@@ -2108,7 +2108,7 @@
     },
     {
       "number": 235,
-      "name": "Thunderlord",
+      "name": "Thunderwyrm",
       "spriteFile": "Combomon Assets/sprites/sprite_235.png",
       "type": "Electric",
       "evolution": 2,
@@ -2117,25 +2117,25 @@
     },
     {
       "number": 236,
-      "name": "Tidelet",
+      "name": "Lawntor",
       "spriteFile": "Combomon Assets/sprites/sprite_236.png",
-      "type": "Water",
+      "type": "Grass",
       "evolution": "Base",
       "personality": "Cuddly",
       "region": "Proto"
     },
     {
       "number": 237,
-      "name": "Crawlrex",
+      "name": "Leaftor",
       "spriteFile": "Combomon Assets/sprites/sprite_237.png",
-      "type": "Bug",
+      "type": "Grass",
       "evolution": 1,
       "personality": "Moody",
       "region": "Proto"
     },
     {
       "number": 238,
-      "name": "Infernoking",
+      "name": "Alakablaze",
       "spriteFile": "Combomon Assets/sprites/sprite_238.png",
       "type": "Fire",
       "evolution": 2,
@@ -2144,7 +2144,7 @@
     },
     {
       "number": 239,
-      "name": "Bloomlet",
+      "name": "Bloomabs",
       "spriteFile": "Combomon Assets/sprites/sprite_239.png",
       "type": "Grass",
       "evolution": "Base",
@@ -2153,7 +2153,7 @@
     },
     {
       "number": 240,
-      "name": "Boltrex",
+      "name": "Cracklewing",
       "spriteFile": "Combomon Assets/sprites/sprite_240.png",
       "type": "Electric",
       "evolution": 1,
@@ -2162,16 +2162,16 @@
     },
     {
       "number": 241,
-      "name": "Scalerex",
+      "name": "Petalflutter",
       "spriteFile": "Combomon Assets/sprites/sprite_241.png",
-      "type": "Water",
+      "type": "Grass",
       "evolution": 2,
       "personality": "Zoomie",
       "region": "Vinova"
     },
     {
       "number": 242,
-      "name": "Hornetlord",
+      "name": "Soldbeetle",
       "spriteFile": "Combomon Assets/sprites/sprite_242.png",
       "type": "Bug",
       "evolution": "Base",
@@ -2180,7 +2180,7 @@
     },
     {
       "number": 243,
-      "name": "Flameion",
+      "name": "Cataflame",
       "spriteFile": "Combomon Assets/sprites/sprite_243.png",
       "type": "Fire",
       "evolution": 1,
@@ -2189,7 +2189,7 @@
     },
     {
       "number": 244,
-      "name": "Leaftron",
+      "name": "Bunbug",
       "spriteFile": "Combomon Assets/sprites/sprite_244.png",
       "type": "Grass",
       "evolution": 2,
@@ -2198,7 +2198,7 @@
     },
     {
       "number": 245,
-      "name": "Thundertot",
+      "name": "Plasmabug",
       "spriteFile": "Combomon Assets/sprites/sprite_245.png",
       "type": "Electric",
       "evolution": "Base",
@@ -2207,16 +2207,16 @@
     },
     {
       "number": 246,
-      "name": "Waterus",
+      "name": "Plantrus",
       "spriteFile": "Combomon Assets/sprites/sprite_246.png",
-      "type": "Water",
+      "type": "Grass",
       "evolution": 1,
       "personality": "Friendly",
       "region": "Proto"
     },
     {
       "number": 247,
-      "name": "Hivemax",
+      "name": "Hivecoral",
       "spriteFile": "Combomon Assets/sprites/sprite_247.png",
       "type": "Bug",
       "evolution": 2,
@@ -2225,7 +2225,7 @@
     },
     {
       "number": 248,
-      "name": "Blazepup",
+      "name": "Emberpunk",
       "spriteFile": "Combomon Assets/sprites/sprite_248.png",
       "type": "Fire",
       "evolution": "Base",
@@ -2234,7 +2234,7 @@
     },
     {
       "number": 249,
-      "name": "Bloomdash",
+      "name": "Squiddirt",
       "spriteFile": "Combomon Assets/sprites/sprite_249.png",
       "type": "Grass",
       "evolution": 1,
@@ -2243,16 +2243,16 @@
     },
     {
       "number": 250,
-      "name": "Thunderzor",
+      "name": "Atlantisaur",
       "spriteFile": "Combomon Assets/sprites/sprite_250.png",
-      "type": "Electric",
+      "type": "Water",
       "evolution": 2,
       "personality": "Friendly",
       "region": "Logto"
     },
     {
       "number": 251,
-      "name": "Bubblelet",
+      "name": "Coralgramps",
       "spriteFile": "Combomon Assets/sprites/sprite_251.png",
       "type": "Water",
       "evolution": "Base",
@@ -2261,7 +2261,7 @@
     },
     {
       "number": 252,
-      "name": "Hiverex",
+      "name": "Trifly",
       "spriteFile": "Combomon Assets/sprites/sprite_252.png",
       "type": "Bug",
       "evolution": 1,
@@ -2270,7 +2270,7 @@
     },
     {
       "number": 253,
-      "name": "Magmadash",
+      "name": "Magmaclaw",
       "spriteFile": "Combomon Assets/sprites/sprite_253.png",
       "type": "Fire",
       "evolution": 2,
@@ -2279,7 +2279,7 @@
     },
     {
       "number": 254,
-      "name": "Vinemite",
+      "name": "Flowjog",
       "spriteFile": "Combomon Assets/sprites/sprite_254.png",
       "type": "Grass",
       "evolution": "Base",
@@ -2288,16 +2288,16 @@
     },
     {
       "number": 255,
-      "name": "Sparkmon",
+      "name": "Scarlescuttle",
       "spriteFile": "Combomon Assets/sprites/sprite_255.png",
-      "type": "Electric",
+      "type": "Bug",
       "evolution": 1,
       "personality": "Moody",
       "region": "Vinova"
     },
     {
       "number": 256,
-      "name": "Tideking",
+      "name": "Tidequeen",
       "spriteFile": "Combomon Assets/sprites/sprite_256.png",
       "type": "Water",
       "evolution": 2,
@@ -2306,7 +2306,7 @@
     },
     {
       "number": 257,
-      "name": "Larvamon",
+      "name": "Tennafly",
       "spriteFile": "Combomon Assets/sprites/sprite_257.png",
       "type": "Bug",
       "evolution": "Base",
@@ -2315,7 +2315,7 @@
     },
     {
       "number": 258,
-      "name": "Charion",
+      "name": "Charclawing",
       "spriteFile": "Combomon Assets/sprites/sprite_258.png",
       "type": "Fire",
       "evolution": 1,
@@ -2324,7 +2324,7 @@
     },
     {
       "number": 259,
-      "name": "Rootmax",
+      "name": "Rootabra",
       "spriteFile": "Combomon Assets/sprites/sprite_259.png",
       "type": "Grass",
       "evolution": 2,
@@ -2333,16 +2333,16 @@
     },
     {
       "number": 260,
-      "name": "Boltmite",
+      "name": "Raptograss",
       "spriteFile": "Combomon Assets/sprites/sprite_260.png",
-      "type": "Electric",
+      "type": "Grass",
       "evolution": "Base",
       "personality": "Loyal",
       "region": "Saliose City"
     },
     {
       "number": 261,
-      "name": "Surfpup",
+      "name": "Surfrex",
       "spriteFile": "Combomon Assets/sprites/sprite_261.png",
       "type": "Water",
       "evolution": 1,
@@ -2351,16 +2351,16 @@
     },
     {
       "number": 262,
-      "name": "Chitinzor",
+      "name": "Plumavolts",
       "spriteFile": "Combomon Assets/sprites/sprite_262.png",
-      "type": "Bug",
+      "type": "Electric",
       "evolution": 2,
       "personality": "Friendly",
       "region": "Saliose City"
     },
     {
       "number": 263,
-      "name": "Emberpup",
+      "name": "Embertummy",
       "spriteFile": "Combomon Assets/sprites/sprite_263.png",
       "type": "Fire",
       "evolution": "Base",
@@ -2369,7 +2369,7 @@
     },
     {
       "number": 264,
-      "name": "Seedrex",
+      "name": "Seedleaf",
       "spriteFile": "Combomon Assets/sprites/sprite_264.png",
       "type": "Grass",
       "evolution": 1,
@@ -2378,7 +2378,7 @@
     },
     {
       "number": 265,
-      "name": "Bolttron",
+      "name": "Seahorspark",
       "spriteFile": "Combomon Assets/sprites/sprite_265.png",
       "type": "Electric",
       "evolution": 2,
@@ -2387,7 +2387,7 @@
     },
     {
       "number": 266,
-      "name": "Wavelet",
+      "name": "Sandscoot",
       "spriteFile": "Combomon Assets/sprites/sprite_266.png",
       "type": "Water",
       "evolution": "Base",
@@ -2396,7 +2396,7 @@
     },
     {
       "number": 267,
-      "name": "Buzzmon",
+      "name": "Styracabug",
       "spriteFile": "Combomon Assets/sprites/sprite_267.png",
       "type": "Bug",
       "evolution": 1,
@@ -2405,7 +2405,7 @@
     },
     {
       "number": 268,
-      "name": "Blazetron",
+      "name": "Foxblaze",
       "spriteFile": "Combomon Assets/sprites/sprite_268.png",
       "type": "Fire",
       "evolution": 2,
@@ -2414,7 +2414,7 @@
     },
     {
       "number": 269,
-      "name": "Leafpup",
+      "name": "Leafmeleon",
       "spriteFile": "Combomon Assets/sprites/sprite_269.png",
       "type": "Grass",
       "evolution": "Base",
@@ -2423,7 +2423,7 @@
     },
     {
       "number": 270,
-      "name": "Chargemon",
+      "name": "Pinkspark",
       "spriteFile": "Combomon Assets/sprites/sprite_270.png",
       "type": "Electric",
       "evolution": 1,
@@ -2432,7 +2432,7 @@
     },
     {
       "number": 271,
-      "name": "Aquaking",
+      "name": "Dragice",
       "spriteFile": "Combomon Assets/sprites/sprite_271.png",
       "type": "Water",
       "evolution": 2,
@@ -2441,7 +2441,7 @@
     },
     {
       "number": 272,
-      "name": "Chitinlet",
+      "name": "Cactikid",
       "spriteFile": "Combomon Assets/sprites/sprite_272.png",
       "type": "Bug",
       "evolution": "Base",
@@ -2450,7 +2450,7 @@
     },
     {
       "number": 273,
-      "name": "Searling",
+      "name": "Thoptflame",
       "spriteFile": "Combomon Assets/sprites/sprite_273.png",
       "type": "Fire",
       "evolution": 1,
@@ -2459,7 +2459,7 @@
     },
     {
       "number": 274,
-      "name": "LeafVerdeling",
+      "name": "Thoptgrass",
       "spriteFile": "Combomon Assets/sprites/sprite_274.png",
       "type": "Grass",
       "evolution": 2,
@@ -2468,7 +2468,7 @@
     },
     {
       "number": 275,
-      "name": "Zapking",
+      "name": "Zaprow",
       "spriteFile": "Combomon Assets/sprites/sprite_275.png",
       "type": "Electric",
       "evolution": "Base",
@@ -2477,7 +2477,7 @@
     },
     {
       "number": 276,
-      "name": "SplashDroppup",
+      "name": "Avalow",
       "spriteFile": "Combomon Assets/sprites/sprite_276.png",
       "type": "Water",
       "evolution": 1,
@@ -2486,7 +2486,7 @@
     },
     {
       "number": 277,
-      "name": "Larvaus",
+      "name": "Beetclarmor",
       "spriteFile": "Combomon Assets/sprites/sprite_277.png",
       "type": "Bug",
       "evolution": 2,
@@ -2495,7 +2495,7 @@
     },
     {
       "number": 278,
-      "name": "ScorchAshdash",
+      "name": "Whiskerflame",
       "spriteFile": "Combomon Assets/sprites/sprite_278.png",
       "type": "Fire",
       "evolution": "Base",
@@ -2504,7 +2504,7 @@
     },
     {
       "number": 279,
-      "name": "Rootara",
+      "name": "Miteplant",
       "spriteFile": "Combomon Assets/sprites/sprite_279.png",
       "type": "Grass",
       "evolution": 1,
@@ -2513,7 +2513,7 @@
     },
     {
       "number": 280,
-      "name": "Thunderking",
+      "name": "Hornrage",
       "spriteFile": "Combomon Assets/sprites/sprite_280.png",
       "type": "Electric",
       "evolution": 2,
@@ -2522,7 +2522,7 @@
     },
     {
       "number": 281,
-      "name": "Streamis",
+      "name": "Iscuttle",
       "spriteFile": "Combomon Assets/sprites/sprite_281.png",
       "type": "Water",
       "evolution": "Base",
@@ -2531,7 +2531,7 @@
     },
     {
       "number": 282,
-      "name": "Crawlara",
+      "name": "Sleetmoth",
       "spriteFile": "Combomon Assets/sprites/sprite_282.png",
       "type": "Bug",
       "evolution": 1,
@@ -2540,7 +2540,7 @@
     },
     {
       "number": 283,
-      "name": "TorchPyredash",
+      "name": "Torchdude",
       "spriteFile": "Combomon Assets/sprites/sprite_283.png",
       "type": "Fire",
       "evolution": 2,
@@ -2549,7 +2549,7 @@
     },
     {
       "number": 284,
-      "name": "Rootpup",
+      "name": "Vinetot",
       "spriteFile": "Combomon Assets/sprites/sprite_284.png",
       "type": "Grass",
       "evolution": "Base",
@@ -2558,7 +2558,7 @@
     },
     {
       "number": 285,
-      "name": "Lightmon",
+      "name": "Bullvolt",
       "spriteFile": "Combomon Assets/sprites/sprite_285.png",
       "type": "Electric",
       "evolution": 1,
@@ -2567,7 +2567,7 @@
     },
     {
       "number": 286,
-      "name": "Tidezor",
+      "name": "Krakoral",
       "spriteFile": "Combomon Assets/sprites/sprite_286.png",
       "type": "Water",
       "evolution": 2,
@@ -2576,16 +2576,16 @@
     },
     {
       "number": 287,
-      "name": "Antennalet",
+      "name": "Sparkpup",
       "spriteFile": "Combomon Assets/sprites/sprite_287.png",
-      "type": "Bug",
+      "type": "Electric",
       "evolution": "Base",
       "personality": "Cuddly",
       "region": "Farmlar"
     },
     {
       "number": 288,
-      "name": "Embermon",
+      "name": "Flififlame",
       "spriteFile": "Combomon Assets/sprites/sprite_288.png",
       "type": "Fire",
       "evolution": 1,
@@ -2594,7 +2594,7 @@
     },
     {
       "number": 289,
-      "name": "Rootzor",
+      "name": "Mossgrowth",
       "spriteFile": "Combomon Assets/sprites/sprite_289.png",
       "type": "Grass",
       "evolution": 2,
@@ -2603,7 +2603,7 @@
     },
     {
       "number": 290,
-      "name": "Boltlet",
+      "name": "Boltmoth",
       "spriteFile": "Combomon Assets/sprites/sprite_290.png",
       "type": "Electric",
       "evolution": "Base",
@@ -2612,7 +2612,7 @@
     },
     {
       "number": 291,
-      "name": "SurfDropmon",
+      "name": "Dorsaltacle",
       "spriteFile": "Combomon Assets/sprites/sprite_291.png",
       "type": "Water",
       "evolution": 1,
@@ -2621,16 +2621,16 @@
     },
     {
       "number": 292,
-      "name": "Larvadash",
+      "name": "Grassolotl",
       "spriteFile": "Combomon Assets/sprites/sprite_292.png",
-      "type": "Bug",
+      "type": "Grass",
       "evolution": 2,
       "personality": "Moody",
       "region": "Farmlar"
     },
     {
       "number": 293,
-      "name": "Infernomax",
+      "name": "Squiflame",
       "spriteFile": "Combomon Assets/sprites/sprite_293.png",
       "type": "Fire",
       "evolution": "Base",
@@ -2639,7 +2639,7 @@
     },
     {
       "number": 294,
-      "name": "Herbis",
+      "name": "Pinecraven",
       "spriteFile": "Combomon Assets/sprites/sprite_294.png",
       "type": "Grass",
       "evolution": 1,
@@ -2648,7 +2648,7 @@
     },
     {
       "number": 295,
-      "name": "Rayion",
+      "name": "Raygolin",
       "spriteFile": "Combomon Assets/sprites/sprite_295.png",
       "type": "Electric",
       "evolution": 2,
@@ -2657,7 +2657,7 @@
     },
     {
       "number": 296,
-      "name": "Splashpup",
+      "name": "Bloof",
       "spriteFile": "Combomon Assets/sprites/sprite_296.png",
       "type": "Water",
       "evolution": "Base",
@@ -2666,7 +2666,7 @@
     },
     {
       "number": 297,
-      "name": "Hiveara",
+      "name": "Tentabra",
       "spriteFile": "Combomon Assets/sprites/sprite_297.png",
       "type": "Bug",
       "evolution": 1,
@@ -2675,7 +2675,7 @@
     },
     {
       "number": 298,
-      "name": "Scorchking",
+      "name": "Inferhound",
       "spriteFile": "Combomon Assets/sprites/sprite_298.png",
       "type": "Fire",
       "evolution": 2,
@@ -2684,7 +2684,7 @@
     },
     {
       "number": 299,
-      "name": "Rootmite",
+      "name": "Rootclops",
       "spriteFile": "Combomon Assets/sprites/sprite_299.png",
       "type": "Grass",
       "evolution": "Base",
@@ -2693,16 +2693,16 @@
     },
     {
       "number": 300,
-      "name": "Chargeara",
+      "name": "Gary",
       "spriteFile": "Combomon Assets/sprites/sprite_300.png",
-      "type": "Electric",
+      "type": "Water",
       "evolution": 1,
       "personality": "Friendly",
       "region": "Saliose City"
     },
     {
       "number": 301,
-      "name": "SplashDropdash",
+      "name": "Splashreina",
       "spriteFile": "Combomon Assets/sprites/sprite_301.png",
       "type": "Water",
       "evolution": 2,
@@ -2711,16 +2711,16 @@
     },
     {
       "number": 302,
-      "name": "Buzzlet",
+      "name": "Fintude",
       "spriteFile": "Combomon Assets/sprites/sprite_302.png",
-      "type": "Bug",
+      "type": "Water",
       "evolution": "Base",
       "personality": "Loyal",
       "region": "Farmlar"
     },
     {
       "number": 303,
-      "name": "Blazedash",
+      "name": "Flamoxie",
       "spriteFile": "Combomon Assets/sprites/sprite_303.png",
       "type": "Fire",
       "evolution": 1,
@@ -2729,7 +2729,7 @@
     },
     {
       "number": 304,
-      "name": "Seedzor",
+      "name": "Whipleaf",
       "spriteFile": "Combomon Assets/sprites/sprite_304.png",
       "type": "Grass",
       "evolution": 2,
@@ -2738,7 +2738,7 @@
     },
     {
       "number": 305,
-      "name": "ElectroRayion",
+      "name": "Chargapuff",
       "spriteFile": "Combomon Assets/sprites/sprite_305.png",
       "type": "Electric",
       "evolution": "Base",
@@ -2747,16 +2747,16 @@
     },
     {
       "number": 306,
-      "name": "Aquadash",
+      "name": "Vlorpion",
       "spriteFile": "Combomon Assets/sprites/sprite_306.png",
-      "type": "Water",
+      "type": "Electric",
       "evolution": 1,
       "personality": "Cuddly",
       "region": "Vinova"
     },
     {
       "number": 307,
-      "name": "Antennamax",
+      "name": "Wreckabug",
       "spriteFile": "Combomon Assets/sprites/sprite_307.png",
       "type": "Bug",
       "evolution": 2,
@@ -2765,16 +2765,16 @@
     },
     {
       "number": 308,
-      "name": "Blazeling",
+      "name": "Cloudcharge",
       "spriteFile": "Combomon Assets/sprites/sprite_308.png",
-      "type": "Fire",
+      "type": "Electric",
       "evolution": "Base",
       "personality": "Friendly",
       "region": "Farmlar"
     },
     {
       "number": 309,
-      "name": "Vineara",
+      "name": "Vineduck",
       "spriteFile": "Combomon Assets/sprites/sprite_309.png",
       "type": "Grass",
       "evolution": 1,
@@ -2783,7 +2783,7 @@
     },
     {
       "number": 310,
-      "name": "Sparklord",
+      "name": "Cloudus",
       "spriteFile": "Combomon Assets/sprites/sprite_310.png",
       "type": "Electric",
       "evolution": 2,
@@ -2792,7 +2792,7 @@
     },
     {
       "number": 311,
-      "name": "Finis",
+      "name": "Blurby",
       "spriteFile": "Combomon Assets/sprites/sprite_311.png",
       "type": "Water",
       "evolution": "Base",
@@ -2801,16 +2801,16 @@
     },
     {
       "number": 312,
-      "name": "Crawldash",
+      "name": "Purplin",
       "spriteFile": "Combomon Assets/sprites/sprite_312.png",
-      "type": "Bug",
+      "type": "Water",
       "evolution": 1,
       "personality": "Cuddly",
       "region": "Saliose City"
     },
     {
       "number": 313,
-      "name": "Flintzor",
+      "name": "Flintwing",
       "spriteFile": "Combomon Assets/sprites/sprite_313.png",
       "type": "Fire",
       "evolution": 2,
@@ -2819,7 +2819,7 @@
     },
     {
       "number": 314,
-      "name": "Bloomtot",
+      "name": "Sharpfly",
       "spriteFile": "Combomon Assets/sprites/sprite_314.png",
       "type": "Grass",
       "evolution": "Base",
@@ -2828,7 +2828,7 @@
     },
     {
       "number": 315,
-      "name": "Boltara",
+      "name": "Boltmane",
       "spriteFile": "Combomon Assets/sprites/sprite_315.png",
       "type": "Electric",
       "evolution": 1,
@@ -2837,7 +2837,7 @@
     },
     {
       "number": 316,
-      "name": "Currentking",
+      "name": "Midnifish",
       "spriteFile": "Combomon Assets/sprites/sprite_316.png",
       "type": "Water",
       "evolution": 2,
@@ -2846,7 +2846,7 @@
     },
     {
       "number": 317,
-      "name": "Hivepup",
+      "name": "Antlergrub",
       "spriteFile": "Combomon Assets/sprites/sprite_317.png",
       "type": "Bug",
       "evolution": "Base",
@@ -2855,7 +2855,7 @@
     },
     {
       "number": 318,
-      "name": "Flamemon",
+      "name": "Flamepent",
       "spriteFile": "Combomon Assets/sprites/sprite_318.png",
       "type": "Fire",
       "evolution": 1,
@@ -2864,7 +2864,7 @@
     },
     {
       "number": 319,
-      "name": "RootStemrex",
+      "name": "Petalbog",
       "spriteFile": "Combomon Assets/sprites/sprite_319.png",
       "type": "Grass",
       "evolution": 2,
@@ -2873,7 +2873,7 @@
     },
     {
       "number": 320,
-      "name": "Voltling",
+      "name": "Plasmaling",
       "spriteFile": "Combomon Assets/sprites/sprite_320.png",
       "type": "Electric",
       "evolution": "Base",
@@ -2882,7 +2882,7 @@
     },
     {
       "number": 321,
-      "name": "AquaLakemax",
+      "name": "Aquabeak",
       "spriteFile": "Combomon Assets/sprites/sprite_321.png",
       "type": "Water",
       "evolution": 1,
@@ -2891,16 +2891,16 @@
     },
     {
       "number": 322,
-      "name": "Crawlking",
+      "name": "Totembeak",
       "spriteFile": "Combomon Assets/sprites/sprite_322.png",
-      "type": "Bug",
+      "type": "Grass",
       "evolution": 2,
       "personality": "Moody",
       "region": "Proto"
     },
     {
       "number": 323,
-      "name": "Infernolet",
+      "name": "Flamewhale",
       "spriteFile": "Combomon Assets/sprites/sprite_323.png",
       "type": "Fire",
       "evolution": "Base",
@@ -2909,7 +2909,7 @@
     },
     {
       "number": 324,
-      "name": "Rootrex",
+      "name": "Triroot",
       "spriteFile": "Combomon Assets/sprites/sprite_324.png",
       "type": "Grass",
       "evolution": 1,
@@ -2918,25 +2918,25 @@
     },
     {
       "number": 325,
-      "name": "Sparkking",
+      "name": "Regrifly",
       "spriteFile": "Combomon Assets/sprites/sprite_325.png",
-      "type": "Electric",
+      "type": "Bug",
       "evolution": 2,
       "personality": "Cuddly",
       "region": "Vinova"
     },
     {
       "number": 326,
-      "name": "Splashtot",
+      "name": "Litenna",
       "spriteFile": "Combomon Assets/sprites/sprite_326.png",
-      "type": "Water",
+      "type": "Bug",
       "evolution": "Base",
       "personality": "Moody",
       "region": "Farmlar"
     },
     {
       "number": 327,
-      "name": "Antennadash",
+      "name": "Psyfly",
       "spriteFile": "Combomon Assets/sprites/sprite_327.png",
       "type": "Bug",
       "evolution": 1,
@@ -2945,7 +2945,7 @@
     },
     {
       "number": 328,
-      "name": "Infernolord",
+      "name": "Burnbird",
       "spriteFile": "Combomon Assets/sprites/sprite_328.png",
       "type": "Fire",
       "evolution": 2,
@@ -2954,7 +2954,7 @@
     },
     {
       "number": 329,
-      "name": "Leafling",
+      "name": "Grassgon",
       "spriteFile": "Combomon Assets/sprites/sprite_329.png",
       "type": "Grass",
       "evolution": "Base",
@@ -2963,7 +2963,7 @@
     },
     {
       "number": 330,
-      "name": "Shockmax",
+      "name": "Krakbat",
       "spriteFile": "Combomon Assets/sprites/sprite_330.png",
       "type": "Electric",
       "evolution": 1,
@@ -2972,7 +2972,7 @@
     },
     {
       "number": 331,
-      "name": "Splashlord",
+      "name": "Corflor",
       "spriteFile": "Combomon Assets/sprites/sprite_331.png",
       "type": "Water",
       "evolution": 2,
@@ -2981,7 +2981,7 @@
     },
     {
       "number": 332,
-      "name": "Mantipup",
+      "name": "Litjusfly",
       "spriteFile": "Combomon Assets/sprites/sprite_332.png",
       "type": "Bug",
       "evolution": "Base",
@@ -2990,7 +2990,7 @@
     },
     {
       "number": 333,
-      "name": "Scorchmon",
+      "name": "Scorcrunner",
       "spriteFile": "Combomon Assets/sprites/sprite_333.png",
       "type": "Fire",
       "evolution": 1,
@@ -2998,4 +2998,5 @@
       "region": "Saliose City"
     }
   ]
+
 }
