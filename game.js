@@ -235,8 +235,28 @@ function setupNewBoard() {
     renderBoard();
 }
 
+// Helper function to count how many valid requirements a combo can satisfy
+function countValidRequirements(combo) {
+    let count = 0;
+    const attributes = ['type', 'personality', 'region', 'evolution'];
+
+    for (let attr of attributes) {
+        const values = combo.map(m => m[attr]);
+        const uniqueValues = new Set(values);
+
+        // All same or all different = valid requirement
+        if (uniqueValues.size === 1 || uniqueValues.size === 3) {
+            count++;
+        }
+    }
+
+    return count;
+}
+
 // Find 3 non-overlapping combinations from the board
 function find3NonOverlappingCombos(boardMonsters) {
+    const requiredRequirements = gameState.difficulty;
+
     // Try multiple times to find non-overlapping combos
     for (let attempt = 0; attempt < 100; attempt++) {
         const usedIndices = new Set();
@@ -253,13 +273,29 @@ function find3NonOverlappingCombos(boardMonsters) {
 
             if (availableIndices.length < 3) break;
 
-            // Pick 3 random indices
-            const selectedIndices = getRandomElements(availableIndices, 3);
-            const combo = selectedIndices.map(i => boardMonsters[i]);
+            // Try to find a combo that can satisfy the required number of requirements
+            let validCombo = null;
+            let validIndices = null;
+
+            // Try multiple combinations
+            for (let comboAttempt = 0; comboAttempt < 20; comboAttempt++) {
+                const selectedIndices = getRandomElements(availableIndices, 3);
+                const combo = selectedIndices.map(i => boardMonsters[i]);
+
+                // Check if this combo can satisfy enough requirements
+                if (countValidRequirements(combo) >= requiredRequirements) {
+                    validCombo = combo;
+                    validIndices = selectedIndices;
+                    break;
+                }
+            }
+
+            // If we couldn't find a valid combo, break and retry
+            if (!validCombo) break;
 
             // Mark as used
-            selectedIndices.forEach(i => usedIndices.add(i));
-            combos.push(combo);
+            validIndices.forEach(i => usedIndices.add(i));
+            combos.push(validCombo);
         }
 
         if (combos.length === 3) {
@@ -299,17 +335,21 @@ function generateRequirementsForCombo(combo, difficulty) {
         }
     }
 
-    // If we don't have enough possible requirements, use what we have
-    if (possibleRequirements.length === 0) {
-        // Edge case: combo doesn't satisfy any clean requirements
-        // Just return empty requirements
-        console.warn('Combo has no clean requirements:', combo);
-        return [];
+    // If we don't have enough possible requirements, log error
+    if (possibleRequirements.length < difficulty) {
+        console.error('Combo cannot satisfy required number of requirements:', {
+            combo,
+            difficulty,
+            possibleRequirements: possibleRequirements.length
+        });
+        // Return what we have, but this should never happen now
+        const shuffled = shuffleArray(possibleRequirements);
+        return shuffled.slice(0, possibleRequirements.length);
     }
 
     // Randomly pick 'difficulty' number of requirements
     const shuffled = shuffleArray(possibleRequirements);
-    return shuffled.slice(0, Math.min(difficulty, shuffled.length));
+    return shuffled.slice(0, difficulty);
 }
 
 // Generate request text from requirements
