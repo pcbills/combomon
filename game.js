@@ -159,97 +159,63 @@ function getMonsterIcon(monster) {
 
 // Setup new board
 function setupNewBoard() {
-    // Get all unique attributes
-    const allTypes = [...new Set(gameState.monsters.map(m => m.type))];
-    const allPersonalities = [...new Set(gameState.monsters.map(m => m.personality))];
-    const allRegions = [...new Set(gameState.monsters.map(m => m.region))];
-    const allEvolutions = ['Base', 1, 2];
+    // STEP 1: Fill the board first
+    // Get all monsters NOT yet unlocked
+    const lockedMonsters = gameState.monsters.filter(m =>
+        !gameState.unlockedMonsters.has(m.number)
+    );
 
-    // Select 3 random from each
-    const selectedTypes = getRandomElements(allTypes, 3);
-    const selectedPersonalities = getRandomElements(allPersonalities, 3);
-    const selectedRegions = getRandomElements(allRegions, 3);
+    // Pick 2 random locked monsters as "seed" monsters
+    const seedMonsters = getRandomElements(lockedMonsters, Math.min(2, lockedMonsters.length));
 
-    // Setup trainers
+    // Find all monsters that share at least one trait with the seed monsters
+    const relatedMonsters = gameState.monsters.filter(m => {
+        // Skip if already in seed
+        if (seedMonsters.some(s => s.number === m.number)) return false;
+
+        // Check if shares any trait with any seed monster
+        return seedMonsters.some(seed =>
+            m.type === seed.type ||
+            m.personality === seed.personality ||
+            m.region === seed.region ||
+            m.evolution === seed.evolution
+        );
+    });
+
+    // Pick 10 more from related monsters
+    const remainingMonsters = getRandomElements(relatedMonsters, Math.min(10, relatedMonsters.length));
+
+    // Combine to create the 12-monster board
+    gameState.boardMonsters = [...seedMonsters, ...remainingMonsters];
+
+    // If we don't have enough (e.g., not enough locked monsters), fill with random
+    while (gameState.boardMonsters.length < 12) {
+        const available = gameState.monsters.filter(m =>
+            !gameState.boardMonsters.some(b => b.number === m.number)
+        );
+        if (available.length === 0) break;
+        gameState.boardMonsters.push(available[Math.floor(Math.random() * available.length)]);
+    }
+
+    // Shuffle the board
+    gameState.boardMonsters = shuffleArray(gameState.boardMonsters);
+
+    // STEP 2: Find 3 non-overlapping combos from the board
+    const trainerCombos = find3NonOverlappingCombos(gameState.boardMonsters);
+
+    if (!trainerCombos) {
+        console.error('Failed to find 3 non-overlapping combos, regenerating board');
+        setupNewBoard();
+        return;
+    }
+
+    // STEP 3: Generate trainer requirements based on each combo
     gameState.trainers = [];
-    const attributes = ['type', 'personality', 'region', 'evolution'];
 
     for (let i = 0; i < 3; i++) {
-        const requirements = [];
-        const numRequirements = gameState.difficulty;
-
-        // Shuffle attributes and pick required number
-        const shuffledAttributes = [...attributes].sort(() => 0.5 - Math.random());
-        const selectedAttributes = shuffledAttributes.slice(0, numRequirements);
-
-        for (let attr of selectedAttributes) {
-            // Reduce chance of "all different evolution" since we have few Stage 2 monsters
-            let matchType;
-            if (attr === 'evolution' && Math.random() < 0.7) {
-                matchType = 'same'; // Favor "same" for evolution to avoid impossible boards
-            } else {
-                matchType = Math.random() > 0.5 ? 'same' : 'different';
-            }
-
-            let value = null;
-
-            if (matchType === 'same') {
-                if (attr === 'type') {
-                    value = selectedTypes[Math.floor(Math.random() * selectedTypes.length)];
-                } else if (attr === 'personality') {
-                    value = selectedPersonalities[Math.floor(Math.random() * selectedPersonalities.length)];
-                } else if (attr === 'region') {
-                    value = selectedRegions[Math.floor(Math.random() * selectedRegions.length)];
-                } else if (attr === 'evolution') {
-                    // Favor Base and 1 since we have more of those
-                    const favoredEvolutions = ['Base', 1, 1, 'Base'];
-                    value = favoredEvolutions[Math.floor(Math.random() * favoredEvolutions.length)];
-                }
-            }
-
-            requirements.push({
-                attribute: attr,
-                matchType,
-                value
-            });
-        }
-
-        // Generate request text
-        let request = 'I want ';
-        const requestParts = [];
-
-        for (let req of requirements) {
-            if (req.matchType === 'same') {
-                if (req.attribute === 'type') {
-                    requestParts.push(`all ${req.value} Combomon`);
-                } else if (req.attribute === 'personality') {
-                    requestParts.push(`all ${req.value} Combomon`);
-                } else if (req.attribute === 'region') {
-                    requestParts.push(`all ${req.value} Combomon`);
-                } else if (req.attribute === 'evolution') {
-                    const evolutionText = req.value === 'Base' ? 'Base' : `Stage ${req.value}`;
-                    requestParts.push(`all ${evolutionText} Combomon`);
-                }
-            } else {
-                if (req.attribute === 'type') {
-                    requestParts.push('all different types');
-                } else if (req.attribute === 'personality') {
-                    requestParts.push('all different personalities');
-                } else if (req.attribute === 'region') {
-                    requestParts.push('all different regions');
-                } else if (req.attribute === 'evolution') {
-                    requestParts.push('all different evolution stages');
-                }
-            }
-        }
-
-        if (requestParts.length === 1) {
-            request += requestParts[0] + '!';
-        } else if (requestParts.length === 2) {
-            request += requestParts[0] + ' and ' + requestParts[1] + '!';
-        } else {
-            request += requestParts.slice(0, -1).join(', ') + ', and ' + requestParts[requestParts.length - 1] + '!';
-        }
+        const combo = trainerCombos[i];
+        const requirements = generateRequirementsForCombo(combo, gameState.difficulty);
+        const request = generateRequestText(requirements);
 
         // Assign random character to trainer
         const randomCharacter = gameState.trainerCharacters[
@@ -266,155 +232,129 @@ function setupNewBoard() {
         document.getElementById(`trainer-request-${i}`).textContent = request;
     }
 
-    // Setup board monsters - ensure each trainer has exactly 3 valid monsters
-    gameState.boardMonsters = [];
-    const usedMonsters = new Set();
-    let attemptCount = 0;
-    let successfullyPlaced = false;
-
-    // Try to find non-overlapping valid combos for all trainers
-    while (!successfullyPlaced && attemptCount < 50) {
-        attemptCount++;
-        const tempBoard = [];
-        const tempUsed = new Set();
-        let allTrainersHaveValidMonsters = true;
-
-        for (let trainer of gameState.trainers) {
-            const validCombos = findValidCombosForTrainer(trainer.requirements, selectedTypes, selectedPersonalities, selectedRegions);
-
-            // Filter out combos that use already-used monsters
-            const availableCombos = validCombos.filter(combo =>
-                combo.every(m => !tempUsed.has(m.number))
-            );
-
-            if (availableCombos.length > 0) {
-                // Pick a random available combo
-                const combo = availableCombos[Math.floor(Math.random() * availableCombos.length)];
-                combo.forEach(m => {
-                    tempUsed.add(m.number);
-                    tempBoard.push(m);
-                });
-            } else {
-                // Couldn't find a non-overlapping combo, need to retry
-                allTrainersHaveValidMonsters = false;
-                break;
-            }
-        }
-
-        if (allTrainersHaveValidMonsters && tempBoard.length === 9) {
-            // Success! Use this board
-            gameState.boardMonsters = tempBoard;
-            usedMonsters.clear();
-            tempUsed.forEach(id => usedMonsters.add(id));
-            successfullyPlaced = true;
-        }
-    }
-
-    // If we failed to find non-overlapping combos, fall back to allowing some overlap
-    if (!successfullyPlaced) {
-        console.warn('Could not find completely non-overlapping solutions, using fallback');
-        for (let trainer of gameState.trainers) {
-            const validCombos = findValidCombosForTrainer(trainer.requirements, selectedTypes, selectedPersonalities, selectedRegions);
-            if (validCombos.length > 0) {
-                const combo = validCombos[Math.floor(Math.random() * validCombos.length)];
-                combo.forEach(m => {
-                    if (!usedMonsters.has(m.number)) {
-                        usedMonsters.add(m.number);
-                        gameState.boardMonsters.push(m);
-                    }
-                });
-            }
-        }
-    }
-
-    // Fill remaining slots with random monsters (distractors)
-    const targetCount = 12;
-    const needed = targetCount - gameState.boardMonsters.length;
-
-    if (needed > 0) {
-        const distractors = gameState.monsters.filter(m =>
-            selectedTypes.includes(m.type) &&
-            selectedPersonalities.includes(m.personality) &&
-            !usedMonsters.has(m.number)
-        );
-
-        const selected = getRandomElements(distractors, Math.min(needed, distractors.length));
-        selected.forEach(m => usedMonsters.add(m.number));
-        gameState.boardMonsters.push(...selected);
-    }
-
-    // Shuffle board monsters
-    gameState.boardMonsters = shuffleArray(gameState.boardMonsters);
-
     renderBoard();
 }
 
-// Find valid 3-monster combinations for a trainer's requirements
-function findValidCombosForTrainer(requirements, types, personalities, regions) {
-    // Start with all monsters that match the board's types and personalities
-    let candidates = gameState.monsters.filter(m =>
-        types.includes(m.type) &&
-        personalities.includes(m.personality)
-    );
+// Find 3 non-overlapping combinations from the board
+function find3NonOverlappingCombos(boardMonsters) {
+    // Try multiple times to find non-overlapping combos
+    for (let attempt = 0; attempt < 100; attempt++) {
+        const usedIndices = new Set();
+        const combos = [];
 
-    // Apply all "same" requirements as hard filters
-    for (let req of requirements) {
-        if (req.matchType === 'same') {
-            if (req.attribute === 'type') {
-                candidates = candidates.filter(m => m.type === req.value);
-            } else if (req.attribute === 'personality') {
-                candidates = candidates.filter(m => m.personality === req.value);
-            } else if (req.attribute === 'region') {
-                candidates = candidates.filter(m => m.region === req.value);
-            } else if (req.attribute === 'evolution') {
-                candidates = candidates.filter(m => m.evolution === req.value);
-            }
-        }
-    }
-
-    // Now find combinations of 3 that satisfy "different" requirements
-    const validCombos = [];
-
-    // For simple case: if only "same" requirements, just pick any 3
-    const hasDifferent = requirements.some(req => req.matchType === 'different');
-
-    if (!hasDifferent) {
-        // Just return a few random combos of 3 from candidates
-        if (candidates.length >= 3) {
-            for (let i = 0; i < Math.min(10, candidates.length - 2); i++) {
-                const combo = getRandomElements(candidates, 3);
-                validCombos.push(combo);
-            }
-        }
-        return validCombos;
-    }
-
-    // For "different" requirements, we need to find combos with variety
-    if (candidates.length >= 3) {
-        // Try up to 100 random combinations
-        for (let attempt = 0; attempt < 100 && validCombos.length < 10; attempt++) {
-            const combo = getRandomElements(candidates, 3);
-
-            // Check if this combo satisfies all "different" requirements
-            let isValid = true;
-            for (let req of requirements) {
-                if (req.matchType === 'different') {
-                    const values = combo.map(m => m[req.attribute]);
-                    const uniqueValues = new Set(values);
-                    if (uniqueValues.size !== 3) {
-                        isValid = false;
-                        break;
-                    }
+        for (let t = 0; t < 3; t++) {
+            // Find 3 monsters not yet used
+            const availableIndices = [];
+            for (let i = 0; i < boardMonsters.length; i++) {
+                if (!usedIndices.has(i)) {
+                    availableIndices.push(i);
                 }
             }
 
-            if (isValid) {
-                validCombos.push(combo);
+            if (availableIndices.length < 3) break;
+
+            // Pick 3 random indices
+            const selectedIndices = getRandomElements(availableIndices, 3);
+            const combo = selectedIndices.map(i => boardMonsters[i]);
+
+            // Mark as used
+            selectedIndices.forEach(i => usedIndices.add(i));
+            combos.push(combo);
+        }
+
+        if (combos.length === 3) {
+            return combos;
+        }
+    }
+
+    return null; // Failed to find
+}
+
+// Generate requirements for a combo based on difficulty
+function generateRequirementsForCombo(combo, difficulty) {
+    const possibleRequirements = [];
+    const attributes = ['type', 'personality', 'region', 'evolution'];
+
+    // Check each attribute to see what requirements this combo can satisfy
+    for (let attr of attributes) {
+        const values = combo.map(m => m[attr]);
+        const uniqueValues = new Set(values);
+
+        if (uniqueValues.size === 1) {
+            // All same - can use "same" requirement
+            possibleRequirements.push({
+                attribute: attr,
+                matchType: 'same',
+                value: values[0]
+            });
+        }
+
+        if (uniqueValues.size === 3) {
+            // All different - can use "different" requirement
+            possibleRequirements.push({
+                attribute: attr,
+                matchType: 'different',
+                value: null
+            });
+        }
+    }
+
+    // If we don't have enough possible requirements, use what we have
+    if (possibleRequirements.length === 0) {
+        // Edge case: combo doesn't satisfy any clean requirements
+        // Just return empty requirements
+        console.warn('Combo has no clean requirements:', combo);
+        return [];
+    }
+
+    // Randomly pick 'difficulty' number of requirements
+    const shuffled = shuffleArray(possibleRequirements);
+    return shuffled.slice(0, Math.min(difficulty, shuffled.length));
+}
+
+// Generate request text from requirements
+function generateRequestText(requirements) {
+    if (requirements.length === 0) {
+        return 'I want 3 Combomon!';
+    }
+
+    let request = 'I want ';
+    const requestParts = [];
+
+    for (let req of requirements) {
+        if (req.matchType === 'same') {
+            if (req.attribute === 'type') {
+                requestParts.push(`all ${req.value} Combomon`);
+            } else if (req.attribute === 'personality') {
+                requestParts.push(`all ${req.value} Combomon`);
+            } else if (req.attribute === 'region') {
+                requestParts.push(`all ${req.value} Combomon`);
+            } else if (req.attribute === 'evolution') {
+                const evolutionText = req.value === 'Base' ? 'Base' : `Stage ${req.value}`;
+                requestParts.push(`all ${evolutionText} Combomon`);
+            }
+        } else {
+            if (req.attribute === 'type') {
+                requestParts.push('all different types');
+            } else if (req.attribute === 'personality') {
+                requestParts.push('all different personalities');
+            } else if (req.attribute === 'region') {
+                requestParts.push('all different regions');
+            } else if (req.attribute === 'evolution') {
+                requestParts.push('all different evolution stages');
             }
         }
     }
 
-    return validCombos;
+    if (requestParts.length === 1) {
+        request += requestParts[0] + '!';
+    } else if (requestParts.length === 2) {
+        request += requestParts[0] + ' and ' + requestParts[1] + '!';
+    } else {
+        request += requestParts.slice(0, -1).join(', ') + ', and ' + requestParts[requestParts.length - 1] + '!';
+    }
+
+    return request;
 }
 
 // Check if trainer's team is valid
