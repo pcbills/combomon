@@ -1,0 +1,3001 @@
+{
+  "monsters": [
+    {
+      "number": 1,
+      "name": "Buglett",
+      "spriteFile": "Combomon Assets/sprites/sprite_001.png",
+      "type": "Bug",
+      "evolution": "Base",
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 2,
+      "name": "Bugmite",
+      "spriteFile": "Combomon Assets/sprites/sprite_002.png",
+      "type": "Bug",
+      "evolution": 1,
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 3,
+      "name": "Bugzilla",
+      "spriteFile": "Combomon Assets/sprites/sprite_003.png",
+      "type": "Bug",
+      "evolution": 2,
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 4,
+      "name": "Embark",
+      "spriteFile": "Combomon Assets/sprites/sprite_004.png",
+      "type": "Fire",
+      "evolution": "Base",
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 5,
+      "name": "Flameborn",
+      "spriteFile": "Combomon Assets/sprites/sprite_005.png",
+      "type": "Fire",
+      "evolution": 1,
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 6,
+      "name": "Infernus",
+      "spriteFile": "Combomon Assets/sprites/sprite_006.png",
+      "type": "Fire",
+      "evolution": 2,
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 7,
+      "name": "Sproutling",
+      "spriteFile": "Combomon Assets/sprites/sprite_007.png",
+      "type": "Grass",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 8,
+      "name": "Verdanto",
+      "spriteFile": "Combomon Assets/sprites/sprite_008.png",
+      "type": "Grass",
+      "evolution": 1,
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 9,
+      "name": "Florasaur",
+      "spriteFile": "Combomon Assets/sprites/sprite_009.png",
+      "type": "Grass",
+      "evolution": 2,
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 10,
+      "name": "Sparklet",
+      "spriteFile": "Combomon Assets/sprites/sprite_010.png",
+      "type": "Electric",
+      "evolution": "Base",
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 11,
+      "name": "Voltpup",
+      "spriteFile": "Combomon Assets/sprites/sprite_011.png",
+      "type": "Electric",
+      "evolution": 2,
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 12,
+      "name": "Thunderhound",
+      "spriteFile": "Combomon Assets/sprites/sprite_012.png",
+      "type": "Electric",
+      "evolution": 2,
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 13,
+      "name": "Droplette",
+      "spriteFile": "Combomon Assets/sprites/sprite_013.png",
+      "type": "Water",
+      "evolution": "Base",
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 14,
+      "name": "Aquafin",
+      "spriteFile": "Combomon Assets/sprites/sprite_014.png",
+      "type": "Water",
+      "evolution": 2,
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 15,
+      "name": "Hydroking",
+      "spriteFile": "Combomon Assets/sprites/sprite_015.png",
+      "type": "Water",
+      "evolution": 2,
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 16,
+      "name": "Chitinch",
+      "spriteFile": "Combomon Assets/sprites/sprite_016.png",
+      "type": "Bug",
+      "evolution": "Base",
+      "personality": "Friendly",
+      "region": "Logto"
+    },
+    {
+      "number": 17,
+      "name": "Carapunch",
+      "spriteFile": "Combomon Assets/sprites/sprite_017.png",
+      "type": "Bug",
+      "evolution": 2,
+      "personality": "Friendly",
+      "region": "Logto"
+    },
+    {
+      "number": 18,
+      "name": "Scorchet",
+      "spriteFile": "Combomon Assets/sprites/sprite_018.png",
+      "type": "Fire",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Farmlar"
+    },
+    {
+      "number": 19,
+      "name": "Blazewind",
+      "spriteFile": "Combomon Assets/sprites/sprite_019.png",
+      "type": "Fire",
+      "evolution": 2,
+      "personality": "Zoomie",
+      "region": "Farmlar"
+    },
+    {
+      "number": 20,
+      "name": "Leafwhisk",
+      "spriteFile": "Combomon Assets/sprites/sprite_020.png",
+      "type": "Grass",
+      "evolution": "Base",
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 21,
+      "name": "Thornvine",
+      "spriteFile": "Combomon Assets/sprites/sprite_021.png",
+      "type": "Grass",
+      "evolution": 2,
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 22,
+      "name": "Joltkit",
+      "spriteFile": "Combomon Assets/sprites/sprite_022.png",
+      "type": "Electric",
+      "evolution": "Base",
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 23,
+      "name": "Zapphound",
+      "spriteFile": "Combomon Assets/sprites/sprite_023.png",
+      "type": "Electric",
+      "evolution": 2,
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 24,
+      "name": "Bubblit",
+      "spriteFile": "Combomon Assets/sprites/sprite_024.png",
+      "type": "Water",
+      "evolution": "Base",
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 25,
+      "name": "Tidalwave",
+      "spriteFile": "Combomon Assets/sprites/sprite_025.png",
+      "type": "Water",
+      "evolution": 2,
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 26,
+      "name": "Antling",
+      "spriteFile": "Combomon Assets/sprites/sprite_026.png",
+      "type": "Bug",
+      "evolution": "Base",
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 27,
+      "name": "Antsoldier",
+      "spriteFile": "Combomon Assets/sprites/sprite_027.png",
+      "type": "Bug",
+      "evolution": 1,
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 28,
+      "name": "Antgeneral",
+      "spriteFile": "Combomon Assets/sprites/sprite_028.png",
+      "type": "Bug",
+      "evolution": 2,
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 29,
+      "name": "Pyrokit",
+      "spriteFile": "Combomon Assets/sprites/sprite_029.png",
+      "type": "Fire",
+      "evolution": "Base",
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 30,
+      "name": "Inferncat",
+      "spriteFile": "Combomon Assets/sprites/sprite_030.png",
+      "type": "Fire",
+      "evolution": 2,
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 31,
+      "name": "Petalbit",
+      "spriteFile": "Combomon Assets/sprites/sprite_031.png",
+      "type": "Grass",
+      "evolution": "Base",
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 32,
+      "name": "Bloomster",
+      "spriteFile": "Combomon Assets/sprites/sprite_032.png",
+      "type": "Grass",
+      "evolution": 2,
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 33,
+      "name": "Staticling",
+      "spriteFile": "Combomon Assets/sprites/sprite_033.png",
+      "type": "Electric",
+      "evolution": "Base",
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 34,
+      "name": "Voltorex",
+      "spriteFile": "Combomon Assets/sprites/sprite_034.png",
+      "type": "Electric",
+      "evolution": 2,
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 35,
+      "name": "Streamlet",
+      "spriteFile": "Combomon Assets/sprites/sprite_035.png",
+      "type": "Water",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 36,
+      "name": "Rapidflow",
+      "spriteFile": "Combomon Assets/sprites/sprite_036.png",
+      "type": "Water",
+      "evolution": 2,
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 37,
+      "name": "Cricko",
+      "spriteFile": "Combomon Assets/sprites/sprite_037.png",
+      "type": "Bug",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 38,
+      "name": "Crickatune",
+      "spriteFile": "Combomon Assets/sprites/sprite_038.png",
+      "type": "Bug",
+      "evolution": 2,
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 39,
+      "name": "Cinders",
+      "spriteFile": "Combomon Assets/sprites/sprite_039.png",
+      "type": "Fire",
+      "evolution": "Base",
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 40,
+      "name": "Ashblaze",
+      "spriteFile": "Combomon Assets/sprites/sprite_040.png",
+      "type": "Fire",
+      "evolution": 2,
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 41,
+      "name": "Seedot",
+      "spriteFile": "Combomon Assets/sprites/sprite_041.png",
+      "type": "Grass",
+      "evolution": "Base",
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 42,
+      "name": "Oakling",
+      "spriteFile": "Combomon Assets/sprites/sprite_042.png",
+      "type": "Grass",
+      "evolution": 2,
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 43,
+      "name": "Boltling",
+      "spriteFile": "Combomon Assets/sprites/sprite_043.png",
+      "type": "Electric",
+      "evolution": "Base",
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 44,
+      "name": "Shockstrike",
+      "spriteFile": "Combomon Assets/sprites/sprite_044.png",
+      "type": "Electric",
+      "evolution": 2,
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 45,
+      "name": "Splashy",
+      "spriteFile": "Combomon Assets/sprites/sprite_045.png",
+      "type": "Water",
+      "evolution": "Base",
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 46,
+      "name": "Wavecrest",
+      "spriteFile": "Combomon Assets/sprites/sprite_046.png",
+      "type": "Water",
+      "evolution": 2,
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 47,
+      "name": "Beetlebud",
+      "spriteFile": "Combomon Assets/sprites/sprite_047.png",
+      "type": "Bug",
+      "evolution": "Base",
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 48,
+      "name": "Beetleguard",
+      "spriteFile": "Combomon Assets/sprites/sprite_048.png",
+      "type": "Bug",
+      "evolution": 1,
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 49,
+      "name": "Beetleking",
+      "spriteFile": "Combomon Assets/sprites/sprite_049.png",
+      "type": "Bug",
+      "evolution": 2,
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 50,
+      "name": "Flameling",
+      "spriteFile": "Combomon Assets/sprites/sprite_050.png",
+      "type": "Fire",
+      "evolution": "Base",
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 51,
+      "name": "Blazequill",
+      "spriteFile": "Combomon Assets/sprites/sprite_051.png",
+      "type": "Fire",
+      "evolution": 2,
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 52,
+      "name": "Mosslet",
+      "spriteFile": "Combomon Assets/sprites/sprite_052.png",
+      "type": "Grass",
+      "evolution": "Base",
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 53,
+      "name": "Mossrock",
+      "spriteFile": "Combomon Assets/sprites/sprite_053.png",
+      "type": "Grass",
+      "evolution": 2,
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 54,
+      "name": "Zapwing",
+      "spriteFile": "Combomon Assets/sprites/sprite_054.png",
+      "type": "Electric",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 55,
+      "name": "Thunderbird",
+      "spriteFile": "Combomon Assets/sprites/sprite_055.png",
+      "type": "Electric",
+      "evolution": 2,
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 56,
+      "name": "Mistpuff",
+      "spriteFile": "Combomon Assets/sprites/sprite_056.png",
+      "type": "Water",
+      "evolution": "Base",
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 57,
+      "name": "Fogdrift",
+      "spriteFile": "Combomon Assets/sprites/sprite_057.png",
+      "type": "Water",
+      "evolution": 2,
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 58,
+      "name": "Webbit",
+      "spriteFile": "Combomon Assets/sprites/sprite_058.png",
+      "type": "Bug",
+      "evolution": "Base",
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 59,
+      "name": "Silkspinner",
+      "spriteFile": "Combomon Assets/sprites/sprite_059.png",
+      "type": "Bug",
+      "evolution": 2,
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 60,
+      "name": "Coalbit",
+      "spriteFile": "Combomon Assets/sprites/sprite_060.png",
+      "type": "Fire",
+      "evolution": "Base",
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 61,
+      "name": "Coalburn",
+      "spriteFile": "Combomon Assets/sprites/sprite_061.png",
+      "type": "Fire",
+      "evolution": 1,
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 62,
+      "name": "Coalbeast",
+      "spriteFile": "Combomon Assets/sprites/sprite_062.png",
+      "type": "Fire",
+      "evolution": 2,
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 63,
+      "name": "Vinewhip",
+      "spriteFile": "Combomon Assets/sprites/sprite_063.png",
+      "type": "Grass",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 64,
+      "name": "Vinelash",
+      "spriteFile": "Combomon Assets/sprites/sprite_064.png",
+      "type": "Grass",
+      "evolution": 2,
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 65,
+      "name": "Chargebit",
+      "spriteFile": "Combomon Assets/sprites/sprite_065.png",
+      "type": "Electric",
+      "evolution": "Base",
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 66,
+      "name": "Voltcharge",
+      "spriteFile": "Combomon Assets/sprites/sprite_066.png",
+      "type": "Electric",
+      "evolution": 2,
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 67,
+      "name": "Puddlet",
+      "spriteFile": "Combomon Assets/sprites/sprite_067.png",
+      "type": "Water",
+      "evolution": "Base",
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 68,
+      "name": "Lakeling",
+      "spriteFile": "Combomon Assets/sprites/sprite_068.png",
+      "type": "Water",
+      "evolution": 2,
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 69,
+      "name": "Cocoonix",
+      "spriteFile": "Combomon Assets/sprites/sprite_069.png",
+      "type": "Bug",
+      "evolution": "Base",
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 70,
+      "name": "Butterflight",
+      "spriteFile": "Combomon Assets/sprites/sprite_070.png",
+      "type": "Bug",
+      "evolution": 2,
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 71,
+      "name": "Sparkflame",
+      "spriteFile": "Combomon Assets/sprites/sprite_071.png",
+      "type": "Fire",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 72,
+      "name": "Wildferno",
+      "spriteFile": "Combomon Assets/sprites/sprite_072.png",
+      "type": "Fire",
+      "evolution": 2,
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 73,
+      "name": "Fernling",
+      "spriteFile": "Combomon Assets/sprites/sprite_073.png",
+      "type": "Grass",
+      "evolution": "Base",
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 74,
+      "name": "Fernbeast",
+      "spriteFile": "Combomon Assets/sprites/sprite_074.png",
+      "type": "Grass",
+      "evolution": 2,
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 75,
+      "name": "Zapbit",
+      "spriteFile": "Combomon Assets/sprites/sprite_075.png",
+      "type": "Electric",
+      "evolution": "Base",
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 76,
+      "name": "Zapster",
+      "spriteFile": "Combomon Assets/sprites/sprite_076.png",
+      "type": "Electric",
+      "evolution": 2,
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 77,
+      "name": "Coralbit",
+      "spriteFile": "Combomon Assets/sprites/sprite_077.png",
+      "type": "Water",
+      "evolution": "Base",
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 78,
+      "name": "Coralreef",
+      "spriteFile": "Combomon Assets/sprites/sprite_078.png",
+      "type": "Water",
+      "evolution": 2,
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 79,
+      "name": "Pillarbug",
+      "spriteFile": "Combomon Assets/sprites/sprite_079.png",
+      "type": "Bug",
+      "evolution": "Base",
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 80,
+      "name": "Grubble",
+      "spriteFile": "Combomon Assets/sprites/sprite_080.png",
+      "type": "Bug",
+      "evolution": 2,
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 81,
+      "name": "Lavabit",
+      "spriteFile": "Combomon Assets/sprites/sprite_081.png",
+      "type": "Fire",
+      "evolution": "Base",
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 82,
+      "name": "Magmatter",
+      "spriteFile": "Combomon Assets/sprites/sprite_082.png",
+      "type": "Fire",
+      "evolution": 2,
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 83,
+      "name": "Bushling",
+      "spriteFile": "Combomon Assets/sprites/sprite_083.png",
+      "type": "Grass",
+      "evolution": "Base",
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 84,
+      "name": "Hedgefox",
+      "spriteFile": "Combomon Assets/sprites/sprite_084.png",
+      "type": "Grass",
+      "evolution": 2,
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 85,
+      "name": "Ionbit",
+      "spriteFile": "Combomon Assets/sprites/sprite_085.png",
+      "type": "Electric",
+      "evolution": "Base",
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 86,
+      "name": "Plasmatic",
+      "spriteFile": "Combomon Assets/sprites/sprite_086.png",
+      "type": "Electric",
+      "evolution": 2,
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 87,
+      "name": "Ripplette",
+      "spriteFile": "Combomon Assets/sprites/sprite_087.png",
+      "type": "Water",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 88,
+      "name": "Waverunner",
+      "spriteFile": "Combomon Assets/sprites/sprite_088.png",
+      "type": "Water",
+      "evolution": 2,
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 89,
+      "name": "Stinglet",
+      "spriteFile": "Combomon Assets/sprites/sprite_089.png",
+      "type": "Bug",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 90,
+      "name": "Stinglord",
+      "spriteFile": "Combomon Assets/sprites/sprite_090.png",
+      "type": "Bug",
+      "evolution": 2,
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 91,
+      "name": "Hearthling",
+      "spriteFile": "Combomon Assets/sprites/sprite_091.png",
+      "type": "Fire",
+      "evolution": "Base",
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 92,
+      "name": "Hearthflame",
+      "spriteFile": "Combomon Assets/sprites/sprite_092.png",
+      "type": "Fire",
+      "evolution": 2,
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 93,
+      "name": "Chlorobit",
+      "spriteFile": "Combomon Assets/sprites/sprite_093.png",
+      "type": "Grass",
+      "evolution": "Base",
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 94,
+      "name": "Photosyn",
+      "spriteFile": "Combomon Assets/sprites/sprite_094.png",
+      "type": "Grass",
+      "evolution": 2,
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 95,
+      "name": "Sparkrod",
+      "spriteFile": "Combomon Assets/sprites/sprite_095.png",
+      "type": "Electric",
+      "evolution": "Base",
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 96,
+      "name": "Boltstaff",
+      "spriteFile": "Combomon Assets/sprites/sprite_096.png",
+      "type": "Electric",
+      "evolution": 2,
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 97,
+      "name": "Dewdrop",
+      "spriteFile": "Combomon Assets/sprites/sprite_097.png",
+      "type": "Water",
+      "evolution": "Base",
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 98,
+      "name": "Raindrift",
+      "spriteFile": "Combomon Assets/sprites/sprite_098.png",
+      "type": "Water",
+      "evolution": 2,
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 99,
+      "name": "Wasplet",
+      "spriteFile": "Combomon Assets/sprites/sprite_099.png",
+      "type": "Bug",
+      "evolution": "Base",
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 100,
+      "name": "Hornetking",
+      "spriteFile": "Combomon Assets/sprites/sprite_100.png",
+      "type": "Bug",
+      "evolution": 2,
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 101,
+      "name": "Ignispark",
+      "spriteFile": "Combomon Assets/sprites/sprite_101.png",
+      "type": "Fire",
+      "evolution": "Base",
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 102,
+      "name": "Blazetorch",
+      "spriteFile": "Combomon Assets/sprites/sprite_102.png",
+      "type": "Fire",
+      "evolution": 1,
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 103,
+      "name": "Ivyling",
+      "spriteFile": "Combomon Assets/sprites/sprite_103.png",
+      "type": "Grass",
+      "evolution": "Base",
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 104,
+      "name": "Ivytitan",
+      "spriteFile": "Combomon Assets/sprites/sprite_104.png",
+      "type": "Grass",
+      "evolution": 1,
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 105,
+      "name": "Amperling",
+      "spriteFile": "Combomon Assets/sprites/sprite_105.png",
+      "type": "Electric",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 106,
+      "name": "Voltstriker",
+      "spriteFile": "Combomon Assets/sprites/sprite_106.png",
+      "type": "Electric",
+      "evolution": 1,
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 107,
+      "name": "Frosting",
+      "spriteFile": "Combomon Assets/sprites/sprite_107.png",
+      "type": "Water",
+      "evolution": "Base",
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 108,
+      "name": "Glacialfin",
+      "spriteFile": "Combomon Assets/sprites/sprite_108.png",
+      "type": "Water",
+      "evolution": 1,
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 109,
+      "name": "Larvling",
+      "spriteFile": "Combomon Assets/sprites/sprite_109.png",
+      "type": "Bug",
+      "evolution": "Base",
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 110,
+      "name": "Chrysalux",
+      "spriteFile": "Combomon Assets/sprites/sprite_110.png",
+      "type": "Bug",
+      "evolution": 1,
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 111,
+      "name": "Phoenixlet",
+      "spriteFile": "Combomon Assets/sprites/sprite_111.png",
+      "type": "Fire",
+      "evolution": "Base",
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 112,
+      "name": "Phoenixborn",
+      "spriteFile": "Combomon Assets/sprites/sprite_112.png",
+      "type": "Fire",
+      "evolution": 1,
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 113,
+      "name": "Rootbit",
+      "spriteFile": "Combomon Assets/sprites/sprite_113.png",
+      "type": "Grass",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 114,
+      "name": "Rootbark",
+      "spriteFile": "Combomon Assets/sprites/sprite_114.png",
+      "type": "Grass",
+      "evolution": 1,
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 115,
+      "name": "Tesling",
+      "spriteFile": "Combomon Assets/sprites/sprite_115.png",
+      "type": "Electric",
+      "evolution": "Base",
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 116,
+      "name": "Teslacoil",
+      "spriteFile": "Combomon Assets/sprites/sprite_116.png",
+      "type": "Electric",
+      "evolution": 1,
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 117,
+      "name": "Geyserpup",
+      "spriteFile": "Combomon Assets/sprites/sprite_117.png",
+      "type": "Water",
+      "evolution": "Base",
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 118,
+      "name": "Geyserhound",
+      "spriteFile": "Combomon Assets/sprites/sprite_118.png",
+      "type": "Water",
+      "evolution": 1,
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 119,
+      "name": "Mantisling",
+      "spriteFile": "Combomon Assets/sprites/sprite_119.png",
+      "type": "Bug",
+      "evolution": "Base",
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 120,
+      "name": "Mantislash",
+      "spriteFile": "Combomon Assets/sprites/sprite_120.png",
+      "type": "Bug",
+      "evolution": 1,
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 121,
+      "name": "Blazetail",
+      "spriteFile": "Combomon Assets/sprites/sprite_121.png",
+      "type": "Fire",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 122,
+      "name": "Infertail",
+      "spriteFile": "Combomon Assets/sprites/sprite_122.png",
+      "type": "Fire",
+      "evolution": 1,
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 123,
+      "name": "Bamboozle",
+      "spriteFile": "Combomon Assets/sprites/sprite_123.png",
+      "type": "Grass",
+      "evolution": "Base",
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 124,
+      "name": "Bambrawler",
+      "spriteFile": "Combomon Assets/sprites/sprite_124.png",
+      "type": "Grass",
+      "evolution": 1,
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 125,
+      "name": "Shockfur",
+      "spriteFile": "Combomon Assets/sprites/sprite_125.png",
+      "type": "Electric",
+      "evolution": "Base",
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 126,
+      "name": "Thundermane",
+      "spriteFile": "Combomon Assets/sprites/sprite_126.png",
+      "type": "Electric",
+      "evolution": 1,
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 127,
+      "name": "Reefseed",
+      "spriteFile": "Combomon Assets/sprites/sprite_127.png",
+      "type": "Water",
+      "evolution": "Base",
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 128,
+      "name": "Reefguard",
+      "spriteFile": "Combomon Assets/sprites/sprite_128.png",
+      "type": "Water",
+      "evolution": 1,
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 129,
+      "name": "Dragonfly",
+      "spriteFile": "Combomon Assets/sprites/sprite_129.png",
+      "type": "Bug",
+      "evolution": "Base",
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 130,
+      "name": "Dragonwing",
+      "spriteFile": "Combomon Assets/sprites/sprite_130.png",
+      "type": "Bug",
+      "evolution": 1,
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 131,
+      "name": "Emberling",
+      "spriteFile": "Combomon Assets/sprites/sprite_131.png",
+      "type": "Fire",
+      "evolution": "Base",
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 132,
+      "name": "Embermage",
+      "spriteFile": "Combomon Assets/sprites/sprite_132.png",
+      "type": "Fire",
+      "evolution": 1,
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 133,
+      "name": "Saplette",
+      "spriteFile": "Combomon Assets/sprites/sprite_133.png",
+      "type": "Grass",
+      "evolution": "Base",
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 134,
+      "name": "Sapwood",
+      "spriteFile": "Combomon Assets/sprites/sprite_134.png",
+      "type": "Grass",
+      "evolution": 1,
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 135,
+      "name": "Voltfang",
+      "spriteFile": "Combomon Assets/sprites/sprite_135.png",
+      "type": "Electric",
+      "evolution": "Base",
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 136,
+      "name": "Boltbite",
+      "spriteFile": "Combomon Assets/sprites/sprite_136.png",
+      "type": "Electric",
+      "evolution": 1,
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 137,
+      "name": "Typhoonlet",
+      "spriteFile": "Combomon Assets/sprites/sprite_137.png",
+      "type": "Water",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 138,
+      "name": "Stormwave",
+      "spriteFile": "Combomon Assets/sprites/sprite_138.png",
+      "type": "Water",
+      "evolution": 1,
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 139,
+      "name": "Mothlet",
+      "spriteFile": "Combomon Assets/sprites/sprite_139.png",
+      "type": "Bug",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 140,
+      "name": "Lumimoth",
+      "spriteFile": "Combomon Assets/sprites/sprite_140.png",
+      "type": "Bug",
+      "evolution": 1,
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 141,
+      "name": "Wildfire",
+      "spriteFile": "Combomon Assets/sprites/sprite_141.png",
+      "type": "Fire",
+      "evolution": "Base",
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 142,
+      "name": "Firewhirl",
+      "spriteFile": "Combomon Assets/sprites/sprite_142.png",
+      "type": "Fire",
+      "evolution": 1,
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 143,
+      "name": "Nutsprout",
+      "spriteFile": "Combomon Assets/sprites/sprite_143.png",
+      "type": "Grass",
+      "evolution": "Base",
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 144,
+      "name": "Acornguard",
+      "spriteFile": "Combomon Assets/sprites/sprite_144.png",
+      "type": "Grass",
+      "evolution": 1,
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 145,
+      "name": "Staticlion",
+      "spriteFile": "Combomon Assets/sprites/sprite_145.png",
+      "type": "Electric",
+      "evolution": "Base",
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 146,
+      "name": "Boltlion",
+      "spriteFile": "Combomon Assets/sprites/sprite_146.png",
+      "type": "Electric",
+      "evolution": 1,
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 147,
+      "name": "Whirlpoolette",
+      "spriteFile": "Combomon Assets/sprites/sprite_147.png",
+      "type": "Water",
+      "evolution": "Base",
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 148,
+      "name": "Maelstrom",
+      "spriteFile": "Combomon Assets/sprites/sprite_148.png",
+      "type": "Water",
+      "evolution": 1,
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 149,
+      "name": "Scarabyte",
+      "spriteFile": "Combomon Assets/sprites/sprite_149.png",
+      "type": "Bug",
+      "evolution": "Base",
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 150,
+      "name": "Scarabanc",
+      "spriteFile": "Combomon Assets/sprites/sprite_150.png",
+      "type": "Bug",
+      "evolution": 1,
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 151,
+      "name": "Volcorex",
+      "spriteFile": "Combomon Assets/sprites/sprite_151.png",
+      "type": "Fire",
+      "evolution": 2,
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 152,
+      "name": "Chitinmite",
+      "spriteFile": "Combomon Assets/sprites/sprite_152.png",
+      "type": "Bug",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Farmlar"
+    },
+    {
+      "number": 153,
+      "name": "Flamerex",
+      "spriteFile": "Combomon Assets/sprites/sprite_153.png",
+      "type": "Fire",
+      "evolution": 1,
+      "personality": "Friendly",
+      "region": "Saliose City"
+    },
+    {
+      "number": 154,
+      "name": "Leafking",
+      "spriteFile": "Combomon Assets/sprites/sprite_154.png",
+      "type": "Grass",
+      "evolution": 2,
+      "personality": "Friendly",
+      "region": "Vinova"
+    },
+    {
+      "number": 155,
+      "name": "Chargetot",
+      "spriteFile": "Combomon Assets/sprites/sprite_155.png",
+      "type": "Electric",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Farmlar"
+    },
+    {
+      "number": 156,
+      "name": "Currention",
+      "spriteFile": "Combomon Assets/sprites/sprite_156.png",
+      "type": "Water",
+      "evolution": 1,
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 157,
+      "name": "Hivetron",
+      "spriteFile": "Combomon Assets/sprites/sprite_157.png",
+      "type": "Bug",
+      "evolution": 2,
+      "personality": "Zoomie",
+      "region": "Vinova"
+    },
+    {
+      "number": 158,
+      "name": "Scorchling",
+      "spriteFile": "Combomon Assets/sprites/sprite_158.png",
+      "type": "Fire",
+      "evolution": "Base",
+      "personality": "Cuddly",
+      "region": "Logto"
+    },
+    {
+      "number": 159,
+      "name": "Vinedash",
+      "spriteFile": "Combomon Assets/sprites/sprite_159.png",
+      "type": "Grass",
+      "evolution": 1,
+      "personality": "Moody",
+      "region": "Vinova"
+    },
+    {
+      "number": 160,
+      "name": "Chargemax",
+      "spriteFile": "Combomon Assets/sprites/sprite_160.png",
+      "type": "Electric",
+      "evolution": 2,
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 161,
+      "name": "Splashling",
+      "spriteFile": "Combomon Assets/sprites/sprite_161.png",
+      "type": "Water",
+      "evolution": "Base",
+      "personality": "Friendly",
+      "region": "Saliose City"
+    },
+    {
+      "number": 162,
+      "name": "Buzzrex",
+      "spriteFile": "Combomon Assets/sprites/sprite_162.png",
+      "type": "Bug",
+      "evolution": 1,
+      "personality": "Loyal",
+      "region": "Farmlar"
+    },
+    {
+      "number": 163,
+      "name": "Scorchlord",
+      "spriteFile": "Combomon Assets/sprites/sprite_163.png",
+      "type": "Fire",
+      "evolution": 2,
+      "personality": "Moody",
+      "region": "Proto"
+    },
+    {
+      "number": 164,
+      "name": "Seedtot",
+      "spriteFile": "Combomon Assets/sprites/sprite_164.png",
+      "type": "Grass",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Farmlar"
+    },
+    {
+      "number": 165,
+      "name": "Chargedash",
+      "spriteFile": "Combomon Assets/sprites/sprite_165.png",
+      "type": "Electric",
+      "evolution": 1,
+      "personality": "Zoomie",
+      "region": "Vinova"
+    },
+    {
+      "number": 166,
+      "name": "Splashtron",
+      "spriteFile": "Combomon Assets/sprites/sprite_166.png",
+      "type": "Water",
+      "evolution": 2,
+      "personality": "Moody",
+      "region": "Logto"
+    },
+    {
+      "number": 167,
+      "name": "Buzzling",
+      "spriteFile": "Combomon Assets/sprites/sprite_167.png",
+      "type": "Bug",
+      "evolution": "Base",
+      "personality": "Moody",
+      "region": "Logto"
+    },
+    {
+      "number": 168,
+      "name": "Infernoara",
+      "spriteFile": "Combomon Assets/sprites/sprite_168.png",
+      "type": "Fire",
+      "evolution": 1,
+      "personality": "Moody",
+      "region": "Proto"
+    },
+    {
+      "number": 169,
+      "name": "Bloomlord",
+      "spriteFile": "Combomon Assets/sprites/sprite_169.png",
+      "type": "Grass",
+      "evolution": 2,
+      "personality": "Cuddly",
+      "region": "Vinova"
+    },
+    {
+      "number": 170,
+      "name": "Chargelet",
+      "spriteFile": "Combomon Assets/sprites/sprite_170.png",
+      "type": "Electric",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Proto"
+    },
+    {
+      "number": 171,
+      "name": "Waverex",
+      "spriteFile": "Combomon Assets/sprites/sprite_171.png",
+      "type": "Water",
+      "evolution": 1,
+      "personality": "Loyal",
+      "region": "Logto"
+    },
+    {
+      "number": 172,
+      "name": "Crawlzor",
+      "spriteFile": "Combomon Assets/sprites/sprite_172.png",
+      "type": "Bug",
+      "evolution": 2,
+      "personality": "Friendly",
+      "region": "Saliose City"
+    },
+    {
+      "number": 173,
+      "name": "Scorchmite",
+      "spriteFile": "Combomon Assets/sprites/sprite_173.png",
+      "type": "Fire",
+      "evolution": "Base",
+      "personality": "Moody",
+      "region": "Proto"
+    },
+    {
+      "number": 174,
+      "name": "Seedara",
+      "spriteFile": "Combomon Assets/sprites/sprite_174.png",
+      "type": "Grass",
+      "evolution": 1,
+      "personality": "Cuddly",
+      "region": "Logto"
+    },
+    {
+      "number": 175,
+      "name": "Chargeking",
+      "spriteFile": "Combomon Assets/sprites/sprite_175.png",
+      "type": "Electric",
+      "evolution": 2,
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 176,
+      "name": "Currentmite",
+      "spriteFile": "Combomon Assets/sprites/sprite_176.png",
+      "type": "Water",
+      "evolution": "Base",
+      "personality": "Loyal",
+      "region": "Saliose City"
+    },
+    {
+      "number": 177,
+      "name": "Chitindash",
+      "spriteFile": "Combomon Assets/sprites/sprite_177.png",
+      "type": "Bug",
+      "evolution": 1,
+      "personality": "Zoomie",
+      "region": "Farmlar"
+    },
+    {
+      "number": 178,
+      "name": "Scorchtron",
+      "spriteFile": "Combomon Assets/sprites/sprite_178.png",
+      "type": "Fire",
+      "evolution": 2,
+      "personality": "Cuddly",
+      "region": "Logto"
+    },
+    {
+      "number": 179,
+      "name": "Rootlet",
+      "spriteFile": "Combomon Assets/sprites/sprite_179.png",
+      "type": "Grass",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Vinova"
+    },
+    {
+      "number": 180,
+      "name": "Sparkara",
+      "spriteFile": "Combomon Assets/sprites/sprite_180.png",
+      "type": "Electric",
+      "evolution": 1,
+      "personality": "Loyal",
+      "region": "Logto"
+    },
+    {
+      "number": 181,
+      "name": "Wavemax",
+      "spriteFile": "Combomon Assets/sprites/sprite_181.png",
+      "type": "Water",
+      "evolution": 2,
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 182,
+      "name": "Hivetot",
+      "spriteFile": "Combomon Assets/sprites/sprite_182.png",
+      "type": "Bug",
+      "evolution": "Base",
+      "personality": "Cuddly",
+      "region": "Logto"
+    },
+    {
+      "number": 183,
+      "name": "Infernomon",
+      "spriteFile": "Combomon Assets/sprites/sprite_183.png",
+      "type": "Fire",
+      "evolution": 1,
+      "personality": "Cuddly",
+      "region": "Logto"
+    },
+    {
+      "number": 184,
+      "name": "Bloommax",
+      "spriteFile": "Combomon Assets/sprites/sprite_184.png",
+      "type": "Grass",
+      "evolution": 2,
+      "personality": "Moody",
+      "region": "Farmlar"
+    },
+    {
+      "number": 185,
+      "name": "Beamite",
+      "spriteFile": "Combomon Assets/sprites/sprite_185.png",
+      "type": "Electric",
+      "evolution": "Base",
+      "personality": "Loyal",
+      "region": "Logto"
+    },
+    {
+      "number": 186,
+      "name": "Aquaara",
+      "spriteFile": "Combomon Assets/sprites/sprite_186.png",
+      "type": "Water",
+      "evolution": 1,
+      "personality": "Friendly",
+      "region": "Proto"
+    },
+    {
+      "number": 187,
+      "name": "Antennalord",
+      "spriteFile": "Combomon Assets/sprites/sprite_187.png",
+      "type": "Bug",
+      "evolution": 2,
+      "personality": "Loyal",
+      "region": "Logto"
+    },
+    {
+      "number": 188,
+      "name": "Flamepup",
+      "spriteFile": "Combomon Assets/sprites/sprite_188.png",
+      "type": "Fire",
+      "evolution": "Base",
+      "personality": "Moody",
+      "region": "Logto"
+    },
+    {
+      "number": 189,
+      "name": "Rootmon",
+      "spriteFile": "Combomon Assets/sprites/sprite_189.png",
+      "type": "Grass",
+      "evolution": 1,
+      "personality": "Loyal",
+      "region": "Farmlar"
+    },
+    {
+      "number": 190,
+      "name": "Thundertron",
+      "spriteFile": "Combomon Assets/sprites/sprite_190.png",
+      "type": "Electric",
+      "evolution": 2,
+      "personality": "Moody",
+      "region": "Farmlar"
+    },
+    {
+      "number": 191,
+      "name": "Tidepup",
+      "spriteFile": "Combomon Assets/sprites/sprite_191.png",
+      "type": "Water",
+      "evolution": "Base",
+      "personality": "Cuddly",
+      "region": "Logto"
+    },
+    {
+      "number": 192,
+      "name": "Buzzdash",
+      "spriteFile": "Combomon Assets/sprites/sprite_192.png",
+      "type": "Bug",
+      "evolution": 1,
+      "personality": "Loyal",
+      "region": "Farmlar"
+    },
+    {
+      "number": 193,
+      "name": "Flamemax",
+      "spriteFile": "Combomon Assets/sprites/sprite_193.png",
+      "type": "Fire",
+      "evolution": 2,
+      "personality": "Friendly",
+      "region": "Saliose City"
+    },
+    {
+      "number": 194,
+      "name": "Leafmite",
+      "spriteFile": "Combomon Assets/sprites/sprite_194.png",
+      "type": "Grass",
+      "evolution": "Base",
+      "personality": "Moody",
+      "region": "Vinova"
+    },
+    {
+      "number": 195,
+      "name": "Sparkdash",
+      "spriteFile": "Combomon Assets/sprites/sprite_195.png",
+      "type": "Electric",
+      "evolution": 1,
+      "personality": "Cuddly",
+      "region": "Logto"
+    },
+    {
+      "number": 196,
+      "name": "Splashking",
+      "spriteFile": "Combomon Assets/sprites/sprite_196.png",
+      "type": "Water",
+      "evolution": 2,
+      "personality": "Moody",
+      "region": "Vinova"
+    },
+    {
+      "number": 197,
+      "name": "Crawlmite",
+      "spriteFile": "Combomon Assets/sprites/sprite_197.png",
+      "type": "Bug",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Farmlar"
+    },
+    {
+      "number": 198,
+      "name": "Blazeara",
+      "spriteFile": "Combomon Assets/sprites/sprite_198.png",
+      "type": "Fire",
+      "evolution": 1,
+      "personality": "Zoomie",
+      "region": "Proto"
+    },
+    {
+      "number": 199,
+      "name": "Vineking",
+      "spriteFile": "Combomon Assets/sprites/sprite_199.png",
+      "type": "Grass",
+      "evolution": 2,
+      "personality": "Friendly",
+      "region": "Saliose City"
+    },
+    {
+      "number": 200,
+      "name": "ChargeBeamtron",
+      "spriteFile": "Combomon Assets/sprites/sprite_200.png",
+      "type": "Electric",
+      "evolution": "Base",
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 201,
+      "name": "Aquamon",
+      "spriteFile": "Combomon Assets/sprites/sprite_201.png",
+      "type": "Water",
+      "evolution": 1,
+      "personality": "Moody",
+      "region": "Proto"
+    },
+    {
+      "number": 202,
+      "name": "Buzzzor",
+      "spriteFile": "Combomon Assets/sprites/sprite_202.png",
+      "type": "Bug",
+      "evolution": 2,
+      "personality": "Cuddly",
+      "region": "Vinova"
+    },
+    {
+      "number": 203,
+      "name": "Infernomite",
+      "spriteFile": "Combomon Assets/sprites/sprite_203.png",
+      "type": "Fire",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 204,
+      "name": "Rootion",
+      "spriteFile": "Combomon Assets/sprites/sprite_204.png",
+      "type": "Grass",
+      "evolution": 1,
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 205,
+      "name": "Thundermax",
+      "spriteFile": "Combomon Assets/sprites/sprite_205.png",
+      "type": "Electric",
+      "evolution": 2,
+      "personality": "Loyal",
+      "region": "Logto"
+    },
+    {
+      "number": 206,
+      "name": "Aquamite",
+      "spriteFile": "Combomon Assets/sprites/sprite_206.png",
+      "type": "Water",
+      "evolution": "Base",
+      "personality": "Loyal",
+      "region": "Saliose City"
+    },
+    {
+      "number": 207,
+      "name": "Hivemon",
+      "spriteFile": "Combomon Assets/sprites/sprite_207.png",
+      "type": "Bug",
+      "evolution": 1,
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 208,
+      "name": "Embertron",
+      "spriteFile": "Combomon Assets/sprites/sprite_208.png",
+      "type": "Fire",
+      "evolution": 2,
+      "personality": "Friendly",
+      "region": "Logto"
+    },
+    {
+      "number": 209,
+      "name": "Vinepup",
+      "spriteFile": "Combomon Assets/sprites/sprite_209.png",
+      "type": "Grass",
+      "evolution": "Base",
+      "personality": "Moody",
+      "region": "Farmlar"
+    },
+    {
+      "number": 210,
+      "name": "Thunderdash",
+      "spriteFile": "Combomon Assets/sprites/sprite_210.png",
+      "type": "Electric",
+      "evolution": 1,
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 211,
+      "name": "Aquazor",
+      "spriteFile": "Combomon Assets/sprites/sprite_211.png",
+      "type": "Water",
+      "evolution": 2,
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 212,
+      "name": "Hivelet",
+      "spriteFile": "Combomon Assets/sprites/sprite_212.png",
+      "type": "Bug",
+      "evolution": "Base",
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 213,
+      "name": "IgnisForgezor",
+      "spriteFile": "Combomon Assets/sprites/sprite_213.png",
+      "type": "Fire",
+      "evolution": 1,
+      "personality": "Loyal",
+      "region": "Farmlar"
+    },
+    {
+      "number": 214,
+      "name": "Seedking",
+      "spriteFile": "Combomon Assets/sprites/sprite_214.png",
+      "type": "Grass",
+      "evolution": 2,
+      "personality": "Friendly",
+      "region": "Proto"
+    },
+    {
+      "number": 215,
+      "name": "Chargeling",
+      "spriteFile": "Combomon Assets/sprites/sprite_215.png",
+      "type": "Electric",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Farmlar"
+    },
+    {
+      "number": 216,
+      "name": "SurfFrosttot",
+      "spriteFile": "Combomon Assets/sprites/sprite_216.png",
+      "type": "Water",
+      "evolution": 1,
+      "personality": "Loyal",
+      "region": "Proto"
+    },
+    {
+      "number": 217,
+      "name": "Antennazor",
+      "spriteFile": "Combomon Assets/sprites/sprite_217.png",
+      "type": "Bug",
+      "evolution": 2,
+      "personality": "Friendly",
+      "region": "Vinova"
+    },
+    {
+      "number": 218,
+      "name": "Fernoking",
+      "spriteFile": "Combomon Assets/sprites/sprite_218.png",
+      "type": "Fire",
+      "evolution": "Base",
+      "personality": "Friendly",
+      "region": "Vinova"
+    },
+    {
+      "number": 219,
+      "name": "Vineion",
+      "spriteFile": "Combomon Assets/sprites/sprite_219.png",
+      "type": "Grass",
+      "evolution": 1,
+      "personality": "Loyal",
+      "region": "Farmlar"
+    },
+    {
+      "number": 220,
+      "name": "Chargetron",
+      "spriteFile": "Combomon Assets/sprites/sprite_220.png",
+      "type": "Electric",
+      "evolution": 2,
+      "personality": "Friendly",
+      "region": "Vinova"
+    },
+    {
+      "number": 221,
+      "name": "Aquatot",
+      "spriteFile": "Combomon Assets/sprites/sprite_221.png",
+      "type": "Water",
+      "evolution": "Base",
+      "personality": "Friendly",
+      "region": "Vinova"
+    },
+    {
+      "number": 222,
+      "name": "HornetAntrex",
+      "spriteFile": "Combomon Assets/sprites/sprite_222.png",
+      "type": "Bug",
+      "evolution": 1,
+      "personality": "Friendly",
+      "region": "Logto"
+    },
+    {
+      "number": 223,
+      "name": "Flareia",
+      "spriteFile": "Combomon Assets/sprites/sprite_223.png",
+      "type": "Fire",
+      "evolution": 2,
+      "personality": "Friendly",
+      "region": "Saliose City"
+    },
+    {
+      "number": 224,
+      "name": "Bloomling",
+      "spriteFile": "Combomon Assets/sprites/sprite_224.png",
+      "type": "Grass",
+      "evolution": "Base",
+      "personality": "Loyal",
+      "region": "Proto"
+    },
+    {
+      "number": 225,
+      "name": "ThunderTeramax",
+      "spriteFile": "Combomon Assets/sprites/sprite_225.png",
+      "type": "Electric",
+      "evolution": 1,
+      "personality": "Cuddly",
+      "region": "Logto"
+    },
+    {
+      "number": 226,
+      "name": "Splashzor",
+      "spriteFile": "Combomon Assets/sprites/sprite_226.png",
+      "type": "Water",
+      "evolution": 2,
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 227,
+      "name": "Chitintot",
+      "spriteFile": "Combomon Assets/sprites/sprite_227.png",
+      "type": "Bug",
+      "evolution": "Base",
+      "personality": "Cuddly",
+      "region": "Vinova"
+    },
+    {
+      "number": 228,
+      "name": "Emberion",
+      "spriteFile": "Combomon Assets/sprites/sprite_228.png",
+      "type": "Fire",
+      "evolution": 1,
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 229,
+      "name": "Leaflord",
+      "spriteFile": "Combomon Assets/sprites/sprite_229.png",
+      "type": "Grass",
+      "evolution": 2,
+      "personality": "Zoomie",
+      "region": "Proto"
+    },
+    {
+      "number": 230,
+      "name": "Thundermite",
+      "spriteFile": "Combomon Assets/sprites/sprite_230.png",
+      "type": "Electric",
+      "evolution": "Base",
+      "personality": "Loyal",
+      "region": "Logto"
+    },
+    {
+      "number": 231,
+      "name": "Wavemon",
+      "spriteFile": "Combomon Assets/sprites/sprite_231.png",
+      "type": "Water",
+      "evolution": 1,
+      "personality": "Friendly",
+      "region": "Proto"
+    },
+    {
+      "number": 232,
+      "name": "Buzzlord",
+      "spriteFile": "Combomon Assets/sprites/sprite_232.png",
+      "type": "Bug",
+      "evolution": 2,
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 233,
+      "name": "Infernotot",
+      "spriteFile": "Combomon Assets/sprites/sprite_233.png",
+      "type": "Fire",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Farmlar"
+    },
+    {
+      "number": 234,
+      "name": "Vinerex",
+      "spriteFile": "Combomon Assets/sprites/sprite_234.png",
+      "type": "Grass",
+      "evolution": 1,
+      "personality": "Zoomie",
+      "region": "Saliose City"
+    },
+    {
+      "number": 235,
+      "name": "Thunderlord",
+      "spriteFile": "Combomon Assets/sprites/sprite_235.png",
+      "type": "Electric",
+      "evolution": 2,
+      "personality": "Moody",
+      "region": "Vinova"
+    },
+    {
+      "number": 236,
+      "name": "Tidelet",
+      "spriteFile": "Combomon Assets/sprites/sprite_236.png",
+      "type": "Water",
+      "evolution": "Base",
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 237,
+      "name": "Crawlrex",
+      "spriteFile": "Combomon Assets/sprites/sprite_237.png",
+      "type": "Bug",
+      "evolution": 1,
+      "personality": "Moody",
+      "region": "Proto"
+    },
+    {
+      "number": 238,
+      "name": "Infernoking",
+      "spriteFile": "Combomon Assets/sprites/sprite_238.png",
+      "type": "Fire",
+      "evolution": 2,
+      "personality": "Loyal",
+      "region": "Logto"
+    },
+    {
+      "number": 239,
+      "name": "Bloomlet",
+      "spriteFile": "Combomon Assets/sprites/sprite_239.png",
+      "type": "Grass",
+      "evolution": "Base",
+      "personality": "Loyal",
+      "region": "Saliose City"
+    },
+    {
+      "number": 240,
+      "name": "Boltrex",
+      "spriteFile": "Combomon Assets/sprites/sprite_240.png",
+      "type": "Electric",
+      "evolution": 1,
+      "personality": "Cuddly",
+      "region": "Logto"
+    },
+    {
+      "number": 241,
+      "name": "Scalerex",
+      "spriteFile": "Combomon Assets/sprites/sprite_241.png",
+      "type": "Water",
+      "evolution": 2,
+      "personality": "Zoomie",
+      "region": "Vinova"
+    },
+    {
+      "number": 242,
+      "name": "Hornetlord",
+      "spriteFile": "Combomon Assets/sprites/sprite_242.png",
+      "type": "Bug",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Saliose City"
+    },
+    {
+      "number": 243,
+      "name": "Flameion",
+      "spriteFile": "Combomon Assets/sprites/sprite_243.png",
+      "type": "Fire",
+      "evolution": 1,
+      "personality": "Cuddly",
+      "region": "Logto"
+    },
+    {
+      "number": 244,
+      "name": "Leaftron",
+      "spriteFile": "Combomon Assets/sprites/sprite_244.png",
+      "type": "Grass",
+      "evolution": 2,
+      "personality": "Cuddly",
+      "region": "Logto"
+    },
+    {
+      "number": 245,
+      "name": "Thundertot",
+      "spriteFile": "Combomon Assets/sprites/sprite_245.png",
+      "type": "Electric",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Proto"
+    },
+    {
+      "number": 246,
+      "name": "Waterus",
+      "spriteFile": "Combomon Assets/sprites/sprite_246.png",
+      "type": "Water",
+      "evolution": 1,
+      "personality": "Friendly",
+      "region": "Proto"
+    },
+    {
+      "number": 247,
+      "name": "Hivemax",
+      "spriteFile": "Combomon Assets/sprites/sprite_247.png",
+      "type": "Bug",
+      "evolution": 2,
+      "personality": "Loyal",
+      "region": "Proto"
+    },
+    {
+      "number": 248,
+      "name": "Blazepup",
+      "spriteFile": "Combomon Assets/sprites/sprite_248.png",
+      "type": "Fire",
+      "evolution": "Base",
+      "personality": "Cuddly",
+      "region": "Logto"
+    },
+    {
+      "number": 249,
+      "name": "Bloomdash",
+      "spriteFile": "Combomon Assets/sprites/sprite_249.png",
+      "type": "Grass",
+      "evolution": 1,
+      "personality": "Loyal",
+      "region": "Logto"
+    },
+    {
+      "number": 250,
+      "name": "Thunderzor",
+      "spriteFile": "Combomon Assets/sprites/sprite_250.png",
+      "type": "Electric",
+      "evolution": 2,
+      "personality": "Friendly",
+      "region": "Logto"
+    },
+    {
+      "number": 251,
+      "name": "Bubblelet",
+      "spriteFile": "Combomon Assets/sprites/sprite_251.png",
+      "type": "Water",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 252,
+      "name": "Hiverex",
+      "spriteFile": "Combomon Assets/sprites/sprite_252.png",
+      "type": "Bug",
+      "evolution": 1,
+      "personality": "Moody",
+      "region": "Logto"
+    },
+    {
+      "number": 253,
+      "name": "Magmadash",
+      "spriteFile": "Combomon Assets/sprites/sprite_253.png",
+      "type": "Fire",
+      "evolution": 2,
+      "personality": "Loyal",
+      "region": "Saliose City"
+    },
+    {
+      "number": 254,
+      "name": "Vinemite",
+      "spriteFile": "Combomon Assets/sprites/sprite_254.png",
+      "type": "Grass",
+      "evolution": "Base",
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 255,
+      "name": "Sparkmon",
+      "spriteFile": "Combomon Assets/sprites/sprite_255.png",
+      "type": "Electric",
+      "evolution": 1,
+      "personality": "Moody",
+      "region": "Vinova"
+    },
+    {
+      "number": 256,
+      "name": "Tideking",
+      "spriteFile": "Combomon Assets/sprites/sprite_256.png",
+      "type": "Water",
+      "evolution": 2,
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 257,
+      "name": "Larvamon",
+      "spriteFile": "Combomon Assets/sprites/sprite_257.png",
+      "type": "Bug",
+      "evolution": "Base",
+      "personality": "Loyal",
+      "region": "Saliose City"
+    },
+    {
+      "number": 258,
+      "name": "Charion",
+      "spriteFile": "Combomon Assets/sprites/sprite_258.png",
+      "type": "Fire",
+      "evolution": 1,
+      "personality": "Friendly",
+      "region": "Proto"
+    },
+    {
+      "number": 259,
+      "name": "Rootmax",
+      "spriteFile": "Combomon Assets/sprites/sprite_259.png",
+      "type": "Grass",
+      "evolution": 2,
+      "personality": "Cuddly",
+      "region": "Saliose City"
+    },
+    {
+      "number": 260,
+      "name": "Boltmite",
+      "spriteFile": "Combomon Assets/sprites/sprite_260.png",
+      "type": "Electric",
+      "evolution": "Base",
+      "personality": "Loyal",
+      "region": "Saliose City"
+    },
+    {
+      "number": 261,
+      "name": "Surfpup",
+      "spriteFile": "Combomon Assets/sprites/sprite_261.png",
+      "type": "Water",
+      "evolution": 1,
+      "personality": "Loyal",
+      "region": "Logto"
+    },
+    {
+      "number": 262,
+      "name": "Chitinzor",
+      "spriteFile": "Combomon Assets/sprites/sprite_262.png",
+      "type": "Bug",
+      "evolution": 2,
+      "personality": "Friendly",
+      "region": "Saliose City"
+    },
+    {
+      "number": 263,
+      "name": "Emberpup",
+      "spriteFile": "Combomon Assets/sprites/sprite_263.png",
+      "type": "Fire",
+      "evolution": "Base",
+      "personality": "Friendly",
+      "region": "Logto"
+    },
+    {
+      "number": 264,
+      "name": "Seedrex",
+      "spriteFile": "Combomon Assets/sprites/sprite_264.png",
+      "type": "Grass",
+      "evolution": 1,
+      "personality": "Zoomie",
+      "region": "Vinova"
+    },
+    {
+      "number": 265,
+      "name": "Bolttron",
+      "spriteFile": "Combomon Assets/sprites/sprite_265.png",
+      "type": "Electric",
+      "evolution": 2,
+      "personality": "Moody",
+      "region": "Logto"
+    },
+    {
+      "number": 266,
+      "name": "Wavelet",
+      "spriteFile": "Combomon Assets/sprites/sprite_266.png",
+      "type": "Water",
+      "evolution": "Base",
+      "personality": "Cuddly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 267,
+      "name": "Buzzmon",
+      "spriteFile": "Combomon Assets/sprites/sprite_267.png",
+      "type": "Bug",
+      "evolution": 1,
+      "personality": "Cuddly",
+      "region": "Logto"
+    },
+    {
+      "number": 268,
+      "name": "Blazetron",
+      "spriteFile": "Combomon Assets/sprites/sprite_268.png",
+      "type": "Fire",
+      "evolution": 2,
+      "personality": "Moody",
+      "region": "Logto"
+    },
+    {
+      "number": 269,
+      "name": "Leafpup",
+      "spriteFile": "Combomon Assets/sprites/sprite_269.png",
+      "type": "Grass",
+      "evolution": "Base",
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 270,
+      "name": "Chargemon",
+      "spriteFile": "Combomon Assets/sprites/sprite_270.png",
+      "type": "Electric",
+      "evolution": 1,
+      "personality": "Zoomie",
+      "region": "Saliose City"
+    },
+    {
+      "number": 271,
+      "name": "Aquaking",
+      "spriteFile": "Combomon Assets/sprites/sprite_271.png",
+      "type": "Water",
+      "evolution": 2,
+      "personality": "Friendly",
+      "region": "Proto"
+    },
+    {
+      "number": 272,
+      "name": "Chitinlet",
+      "spriteFile": "Combomon Assets/sprites/sprite_272.png",
+      "type": "Bug",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Saliose City"
+    },
+    {
+      "number": 273,
+      "name": "Searling",
+      "spriteFile": "Combomon Assets/sprites/sprite_273.png",
+      "type": "Fire",
+      "evolution": 1,
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 274,
+      "name": "LeafVerdeling",
+      "spriteFile": "Combomon Assets/sprites/sprite_274.png",
+      "type": "Grass",
+      "evolution": 2,
+      "personality": "Zoomie",
+      "region": "Farmlar"
+    },
+    {
+      "number": 275,
+      "name": "Zapking",
+      "spriteFile": "Combomon Assets/sprites/sprite_275.png",
+      "type": "Electric",
+      "evolution": "Base",
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 276,
+      "name": "SplashDroppup",
+      "spriteFile": "Combomon Assets/sprites/sprite_276.png",
+      "type": "Water",
+      "evolution": 1,
+      "personality": "Loyal",
+      "region": "Proto"
+    },
+    {
+      "number": 277,
+      "name": "Larvaus",
+      "spriteFile": "Combomon Assets/sprites/sprite_277.png",
+      "type": "Bug",
+      "evolution": 2,
+      "personality": "Loyal",
+      "region": "Farmlar"
+    },
+    {
+      "number": 278,
+      "name": "ScorchAshdash",
+      "spriteFile": "Combomon Assets/sprites/sprite_278.png",
+      "type": "Fire",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Saliose City"
+    },
+    {
+      "number": 279,
+      "name": "Rootara",
+      "spriteFile": "Combomon Assets/sprites/sprite_279.png",
+      "type": "Grass",
+      "evolution": 1,
+      "personality": "Friendly",
+      "region": "Logto"
+    },
+    {
+      "number": 280,
+      "name": "Thunderking",
+      "spriteFile": "Combomon Assets/sprites/sprite_280.png",
+      "type": "Electric",
+      "evolution": 2,
+      "personality": "Loyal",
+      "region": "Farmlar"
+    },
+    {
+      "number": 281,
+      "name": "Streamis",
+      "spriteFile": "Combomon Assets/sprites/sprite_281.png",
+      "type": "Water",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Saliose City"
+    },
+    {
+      "number": 282,
+      "name": "Crawlara",
+      "spriteFile": "Combomon Assets/sprites/sprite_282.png",
+      "type": "Bug",
+      "evolution": 1,
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 283,
+      "name": "TorchPyredash",
+      "spriteFile": "Combomon Assets/sprites/sprite_283.png",
+      "type": "Fire",
+      "evolution": 2,
+      "personality": "Loyal",
+      "region": "Proto"
+    },
+    {
+      "number": 284,
+      "name": "Rootpup",
+      "spriteFile": "Combomon Assets/sprites/sprite_284.png",
+      "type": "Grass",
+      "evolution": "Base",
+      "personality": "Cuddly",
+      "region": "Saliose City"
+    },
+    {
+      "number": 285,
+      "name": "Lightmon",
+      "spriteFile": "Combomon Assets/sprites/sprite_285.png",
+      "type": "Electric",
+      "evolution": 1,
+      "personality": "Friendly",
+      "region": "Vinova"
+    },
+    {
+      "number": 286,
+      "name": "Tidezor",
+      "spriteFile": "Combomon Assets/sprites/sprite_286.png",
+      "type": "Water",
+      "evolution": 2,
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 287,
+      "name": "Antennalet",
+      "spriteFile": "Combomon Assets/sprites/sprite_287.png",
+      "type": "Bug",
+      "evolution": "Base",
+      "personality": "Cuddly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 288,
+      "name": "Embermon",
+      "spriteFile": "Combomon Assets/sprites/sprite_288.png",
+      "type": "Fire",
+      "evolution": 1,
+      "personality": "Loyal",
+      "region": "Farmlar"
+    },
+    {
+      "number": 289,
+      "name": "Rootzor",
+      "spriteFile": "Combomon Assets/sprites/sprite_289.png",
+      "type": "Grass",
+      "evolution": 2,
+      "personality": "Cuddly",
+      "region": "Saliose City"
+    },
+    {
+      "number": 290,
+      "name": "Boltlet",
+      "spriteFile": "Combomon Assets/sprites/sprite_290.png",
+      "type": "Electric",
+      "evolution": "Base",
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 291,
+      "name": "SurfDropmon",
+      "spriteFile": "Combomon Assets/sprites/sprite_291.png",
+      "type": "Water",
+      "evolution": 1,
+      "personality": "Zoomie",
+      "region": "Farmlar"
+    },
+    {
+      "number": 292,
+      "name": "Larvadash",
+      "spriteFile": "Combomon Assets/sprites/sprite_292.png",
+      "type": "Bug",
+      "evolution": 2,
+      "personality": "Moody",
+      "region": "Farmlar"
+    },
+    {
+      "number": 293,
+      "name": "Infernomax",
+      "spriteFile": "Combomon Assets/sprites/sprite_293.png",
+      "type": "Fire",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 294,
+      "name": "Herbis",
+      "spriteFile": "Combomon Assets/sprites/sprite_294.png",
+      "type": "Grass",
+      "evolution": 1,
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 295,
+      "name": "Rayion",
+      "spriteFile": "Combomon Assets/sprites/sprite_295.png",
+      "type": "Electric",
+      "evolution": 2,
+      "personality": "Loyal",
+      "region": "Saliose City"
+    },
+    {
+      "number": 296,
+      "name": "Splashpup",
+      "spriteFile": "Combomon Assets/sprites/sprite_296.png",
+      "type": "Water",
+      "evolution": "Base",
+      "personality": "Friendly",
+      "region": "Vinova"
+    },
+    {
+      "number": 297,
+      "name": "Hiveara",
+      "spriteFile": "Combomon Assets/sprites/sprite_297.png",
+      "type": "Bug",
+      "evolution": 1,
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 298,
+      "name": "Scorchking",
+      "spriteFile": "Combomon Assets/sprites/sprite_298.png",
+      "type": "Fire",
+      "evolution": 2,
+      "personality": "Friendly",
+      "region": "Proto"
+    },
+    {
+      "number": 299,
+      "name": "Rootmite",
+      "spriteFile": "Combomon Assets/sprites/sprite_299.png",
+      "type": "Grass",
+      "evolution": "Base",
+      "personality": "Zoomie",
+      "region": "Vinova"
+    },
+    {
+      "number": 300,
+      "name": "Chargeara",
+      "spriteFile": "Combomon Assets/sprites/sprite_300.png",
+      "type": "Electric",
+      "evolution": 1,
+      "personality": "Friendly",
+      "region": "Saliose City"
+    },
+    {
+      "number": 301,
+      "name": "SplashDropdash",
+      "spriteFile": "Combomon Assets/sprites/sprite_301.png",
+      "type": "Water",
+      "evolution": 2,
+      "personality": "Friendly",
+      "region": "Vinova"
+    },
+    {
+      "number": 302,
+      "name": "Buzzlet",
+      "spriteFile": "Combomon Assets/sprites/sprite_302.png",
+      "type": "Bug",
+      "evolution": "Base",
+      "personality": "Loyal",
+      "region": "Farmlar"
+    },
+    {
+      "number": 303,
+      "name": "Blazedash",
+      "spriteFile": "Combomon Assets/sprites/sprite_303.png",
+      "type": "Fire",
+      "evolution": 1,
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 304,
+      "name": "Seedzor",
+      "spriteFile": "Combomon Assets/sprites/sprite_304.png",
+      "type": "Grass",
+      "evolution": 2,
+      "personality": "Zoomie",
+      "region": "Logto"
+    },
+    {
+      "number": 305,
+      "name": "ElectroRayion",
+      "spriteFile": "Combomon Assets/sprites/sprite_305.png",
+      "type": "Electric",
+      "evolution": "Base",
+      "personality": "Moody",
+      "region": "Saliose City"
+    },
+    {
+      "number": 306,
+      "name": "Aquadash",
+      "spriteFile": "Combomon Assets/sprites/sprite_306.png",
+      "type": "Water",
+      "evolution": 1,
+      "personality": "Cuddly",
+      "region": "Vinova"
+    },
+    {
+      "number": 307,
+      "name": "Antennamax",
+      "spriteFile": "Combomon Assets/sprites/sprite_307.png",
+      "type": "Bug",
+      "evolution": 2,
+      "personality": "Loyal",
+      "region": "Saliose City"
+    },
+    {
+      "number": 308,
+      "name": "Blazeling",
+      "spriteFile": "Combomon Assets/sprites/sprite_308.png",
+      "type": "Fire",
+      "evolution": "Base",
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 309,
+      "name": "Vineara",
+      "spriteFile": "Combomon Assets/sprites/sprite_309.png",
+      "type": "Grass",
+      "evolution": 1,
+      "personality": "Friendly",
+      "region": "Saliose City"
+    },
+    {
+      "number": 310,
+      "name": "Sparklord",
+      "spriteFile": "Combomon Assets/sprites/sprite_310.png",
+      "type": "Electric",
+      "evolution": 2,
+      "personality": "Cuddly",
+      "region": "Logto"
+    },
+    {
+      "number": 311,
+      "name": "Finis",
+      "spriteFile": "Combomon Assets/sprites/sprite_311.png",
+      "type": "Water",
+      "evolution": "Base",
+      "personality": "Moody",
+      "region": "Proto"
+    },
+    {
+      "number": 312,
+      "name": "Crawldash",
+      "spriteFile": "Combomon Assets/sprites/sprite_312.png",
+      "type": "Bug",
+      "evolution": 1,
+      "personality": "Cuddly",
+      "region": "Saliose City"
+    },
+    {
+      "number": 313,
+      "name": "Flintzor",
+      "spriteFile": "Combomon Assets/sprites/sprite_313.png",
+      "type": "Fire",
+      "evolution": 2,
+      "personality": "Friendly",
+      "region": "Farmlar"
+    },
+    {
+      "number": 314,
+      "name": "Bloomtot",
+      "spriteFile": "Combomon Assets/sprites/sprite_314.png",
+      "type": "Grass",
+      "evolution": "Base",
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 315,
+      "name": "Boltara",
+      "spriteFile": "Combomon Assets/sprites/sprite_315.png",
+      "type": "Electric",
+      "evolution": 1,
+      "personality": "Loyal",
+      "region": "Saliose City"
+    },
+    {
+      "number": 316,
+      "name": "Currentking",
+      "spriteFile": "Combomon Assets/sprites/sprite_316.png",
+      "type": "Water",
+      "evolution": 2,
+      "personality": "Zoomie",
+      "region": "Farmlar"
+    },
+    {
+      "number": 317,
+      "name": "Hivepup",
+      "spriteFile": "Combomon Assets/sprites/sprite_317.png",
+      "type": "Bug",
+      "evolution": "Base",
+      "personality": "Friendly",
+      "region": "Logto"
+    },
+    {
+      "number": 318,
+      "name": "Flamemon",
+      "spriteFile": "Combomon Assets/sprites/sprite_318.png",
+      "type": "Fire",
+      "evolution": 1,
+      "personality": "Loyal",
+      "region": "Farmlar"
+    },
+    {
+      "number": 319,
+      "name": "RootStemrex",
+      "spriteFile": "Combomon Assets/sprites/sprite_319.png",
+      "type": "Grass",
+      "evolution": 2,
+      "personality": "Loyal",
+      "region": "Vinova"
+    },
+    {
+      "number": 320,
+      "name": "Voltling",
+      "spriteFile": "Combomon Assets/sprites/sprite_320.png",
+      "type": "Electric",
+      "evolution": "Base",
+      "personality": "Friendly",
+      "region": "Saliose City"
+    },
+    {
+      "number": 321,
+      "name": "AquaLakemax",
+      "spriteFile": "Combomon Assets/sprites/sprite_321.png",
+      "type": "Water",
+      "evolution": 1,
+      "personality": "Loyal",
+      "region": "Proto"
+    },
+    {
+      "number": 322,
+      "name": "Crawlking",
+      "spriteFile": "Combomon Assets/sprites/sprite_322.png",
+      "type": "Bug",
+      "evolution": 2,
+      "personality": "Moody",
+      "region": "Proto"
+    },
+    {
+      "number": 323,
+      "name": "Infernolet",
+      "spriteFile": "Combomon Assets/sprites/sprite_323.png",
+      "type": "Fire",
+      "evolution": "Base",
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 324,
+      "name": "Rootrex",
+      "spriteFile": "Combomon Assets/sprites/sprite_324.png",
+      "type": "Grass",
+      "evolution": 1,
+      "personality": "Cuddly",
+      "region": "Proto"
+    },
+    {
+      "number": 325,
+      "name": "Sparkking",
+      "spriteFile": "Combomon Assets/sprites/sprite_325.png",
+      "type": "Electric",
+      "evolution": 2,
+      "personality": "Cuddly",
+      "region": "Vinova"
+    },
+    {
+      "number": 326,
+      "name": "Splashtot",
+      "spriteFile": "Combomon Assets/sprites/sprite_326.png",
+      "type": "Water",
+      "evolution": "Base",
+      "personality": "Moody",
+      "region": "Farmlar"
+    },
+    {
+      "number": 327,
+      "name": "Antennadash",
+      "spriteFile": "Combomon Assets/sprites/sprite_327.png",
+      "type": "Bug",
+      "evolution": 1,
+      "personality": "Friendly",
+      "region": "Vinova"
+    },
+    {
+      "number": 328,
+      "name": "Infernolord",
+      "spriteFile": "Combomon Assets/sprites/sprite_328.png",
+      "type": "Fire",
+      "evolution": 2,
+      "personality": "Loyal",
+      "region": "Farmlar"
+    },
+    {
+      "number": 329,
+      "name": "Leafling",
+      "spriteFile": "Combomon Assets/sprites/sprite_329.png",
+      "type": "Grass",
+      "evolution": "Base",
+      "personality": "Moody",
+      "region": "Proto"
+    },
+    {
+      "number": 330,
+      "name": "Shockmax",
+      "spriteFile": "Combomon Assets/sprites/sprite_330.png",
+      "type": "Electric",
+      "evolution": 1,
+      "personality": "Loyal",
+      "region": "Proto"
+    },
+    {
+      "number": 331,
+      "name": "Splashlord",
+      "spriteFile": "Combomon Assets/sprites/sprite_331.png",
+      "type": "Water",
+      "evolution": 2,
+      "personality": "Friendly",
+      "region": "Saliose City"
+    },
+    {
+      "number": 332,
+      "name": "Mantipup",
+      "spriteFile": "Combomon Assets/sprites/sprite_332.png",
+      "type": "Bug",
+      "evolution": "Base",
+      "personality": "Moody",
+      "region": "Vinova"
+    },
+    {
+      "number": 333,
+      "name": "Scorchmon",
+      "spriteFile": "Combomon Assets/sprites/sprite_333.png",
+      "type": "Fire",
+      "evolution": 1,
+      "personality": "Loyal",
+      "region": "Saliose City"
+    }
+  ]
+}

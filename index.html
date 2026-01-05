@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combomon - Monster Matching Puzzle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <div class="header-icons">
+                <button id="music-toggle" class="icon-btn" title="Toggle Music">🔊</button>
+                <button id="help-btn" class="icon-btn" title="Help">?</button>
+            </div>
+            <h1>Combomon</h1>
+            <p>Match Combomon to Trainers' Desires!</p>
+            <div id="combodex-status">Combomon Unlocked: <span id="unlocked-count">0</span> out of <span id="total-count">333</span></div>
+        </header>
+
+        <div id="game-container">
+            <!-- Trainers Section -->
+            <div id="trainers-section">
+                <h2>Trainers</h2>
+                <div id="trainers">
+                    <div class="trainer" data-trainer="0">
+                        <div class="trainer-info">
+                            <div class="trainer-icon">T1</div>
+                            <div class="trainer-request" id="trainer-request-0">Loading...</div>
+                        </div>
+                        <div class="trainer-slots">
+                            <div class="trainer-slot" data-trainer="0" data-slot="0"></div>
+                            <div class="trainer-slot" data-trainer="0" data-slot="1"></div>
+                            <div class="trainer-slot" data-trainer="0" data-slot="2"></div>
+                        </div>
+                    </div>
+                    <div class="trainer" data-trainer="1">
+                        <div class="trainer-info">
+                            <div class="trainer-icon">T2</div>
+                            <div class="trainer-request" id="trainer-request-1">Loading...</div>
+                        </div>
+                        <div class="trainer-slots">
+                            <div class="trainer-slot" data-trainer="1" data-slot="0"></div>
+                            <div class="trainer-slot" data-trainer="1" data-slot="1"></div>
+                            <div class="trainer-slot" data-trainer="1" data-slot="2"></div>
+                        </div>
+                    </div>
+                    <div class="trainer" data-trainer="2">
+                        <div class="trainer-info">
+                            <div class="trainer-icon">T3</div>
+                            <div class="trainer-request" id="trainer-request-2">Loading...</div>
+                        </div>
+                        <div class="trainer-slots">
+                            <div class="trainer-slot" data-trainer="2" data-slot="0"></div>
+                            <div class="trainer-slot" data-trainer="2" data-slot="1"></div>
+                            <div class="trainer-slot" data-trainer="2" data-slot="2"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="difficulty-selector">
+                    <span>Difficulty:</span>
+                    <button class="difficulty-btn active" data-difficulty="1">1</button>
+                    <button class="difficulty-btn" data-difficulty="2">2</button>
+                    <button class="difficulty-btn" data-difficulty="3">3</button>
+                </div>
+            </div>
+
+            <!-- Board Section -->
+            <div id="board-section">
+                <h2>Combomon Ranch</h2>
+                <div id="board">
+                    <!-- 12 board slots will be generated here -->
+                </div>
+                <button id="submit-btn" disabled>Submit Complete Teams</button>
+                <button id="reset-btn">Reset</button>
+                <button id="combodex-btn">View Combodex</button>
+            </div>
+        </div>
+
+        <!-- Combodex Modal -->
+        <div id="combodex-modal" class="modal hidden">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Combodex</h2>
+                    <button id="close-combodex" class="close-btn">&times;</button>
+                </div>
+                <div id="combodex-grid">
+                    <!-- Combodex entries will be generated here -->
+                </div>
+                <div class="modal-footer">
+                    <button id="reset-combodex-btn">Reset Combodex Progress</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Help Modal -->
+        <div id="help-modal" class="modal hidden">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>How to Play</h2>
+                    <button id="close-help" class="close-btn">&times;</button>
+                </div>
+                <div class="help-content">
+                    <section>
+                        <h3>Objective</h3>
+                        <p>Match Combomon to fulfill trainers' requests and unlock all 333 creatures in your Combodex!</p>
+                    </section>
+
+                    <section>
+                        <h3>How to Play</h3>
+                        <p>1. Read each trainer's request (e.g., "I want all Fire Combomon!")</p>
+                        <p>2. Click a Combomon from the board, then click a slot to place it</p>
+                        <p>3. Fill all three slots for each trainer with matching Combomon</p>
+                        <p>4. Click "Submit Complete Teams" to check your answers</p>
+                        <p>5. Correct matches unlock those Combomon in your Combodex</p>
+                    </section>
+
+                    <section>
+                        <h3>Difficulty Levels</h3>
+                        <p>Difficulty 1: Trainers want 1 matching attribute</p>
+                        <p>Difficulty 2: Trainers want 2 matching attributes</p>
+                        <p>Difficulty 3: Trainers want 3 matching attributes</p>
+                    </section>
+
+                    <section>
+                        <h3>Attributes</h3>
+                        <p>Types: Bug, Fire, Grass, Electric, Water</p>
+                        <p>Evolution: Base, Stage 1, Stage 2</p>
+                        <p>Personality: Cuddly, Moody, Zoomie, Friendly, Loyal</p>
+                        <p>Region: Proto, Saliose City, Logto, Farmlar, Vinova</p>
+                    </section>
+
+                    <section class="credits">
+                        <h3>Credits</h3>
+                        <p>Design and Development: pobbles9 (Paul Bills)</p>
+                        <p>Art: WorthyPie, Pixel Frog</p>
+                        <p>Music: gingersweet by massobeats (freetouse.com/music), Universfield</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Perfect Message -->
+    <div id="perfect-message" class="hidden">
+        <span class="wave-text">P</span>
+        <span class="wave-text">e</span>
+        <span class="wave-text">r</span>
+        <span class="wave-text">f</span>
+        <span class="wave-text">e</span>
+        <span class="wave-text">c</span>
+        <span class="wave-text">t</span>
+        <span class="wave-text">!</span>
+    </div>
+
+    <!-- Background Music -->
+    <audio id="background-music" loop>
+        <source src="Combomon Assets/audio/massobeats - gingersweet (freetouse.com).mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Sound Effects -->
+    <audio id="windchime-sound">
+        <source src="Combomon Assets/audio/brass-new-level-151765.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="game.js"></script>
+</body>
+</html>

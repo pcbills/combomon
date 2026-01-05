@@ -1,0 +1,148 @@
+{
+  "characters": [
+    {
+      "id": 1,
+      "name": "Bandit 1",
+      "type": "Bandit",
+      "spriteFile": "Combomon Assets/characters/character_01.png"
+    },
+    {
+      "id": 2,
+      "name": "Bandit 2",
+      "type": "Bandit",
+      "spriteFile": "Combomon Assets/characters/character_02.png"
+    },
+    {
+      "id": 3,
+      "name": "Bandit 3",
+      "type": "Bandit",
+      "spriteFile": "Combomon Assets/characters/character_03.png"
+    },
+    {
+      "id": 4,
+      "name": "Bandit 4",
+      "type": "Bandit",
+      "spriteFile": "Combomon Assets/characters/character_04.png"
+    },
+    {
+      "id": 5,
+      "name": "Bandit 5",
+      "type": "Bandit",
+      "spriteFile": "Combomon Assets/characters/character_05.png"
+    },
+    {
+      "id": 6,
+      "name": "Bandit 6",
+      "type": "Bandit",
+      "spriteFile": "Combomon Assets/characters/character_06.png"
+    },
+    {
+      "id": 7,
+      "name": "Bandit 7",
+      "type": "Bandit",
+      "spriteFile": "Combomon Assets/characters/character_07.png"
+    },
+    {
+      "id": 8,
+      "name": "Bandit 8",
+      "type": "Bandit",
+      "spriteFile": "Combomon Assets/characters/character_08.png"
+    },
+    {
+      "id": 9,
+      "name": "Knight 1",
+      "type": "Knight",
+      "spriteFile": "Combomon Assets/characters/character_09.png"
+    },
+    {
+      "id": 10,
+      "name": "Knight 2",
+      "type": "Knight",
+      "spriteFile": "Combomon Assets/characters/character_10.png"
+    },
+    {
+      "id": 11,
+      "name": "Knight 3",
+      "type": "Knight",
+      "spriteFile": "Combomon Assets/characters/character_11.png"
+    },
+    {
+      "id": 12,
+      "name": "Knight 4",
+      "type": "Knight",
+      "spriteFile": "Combomon Assets/characters/character_12.png"
+    },
+    {
+      "id": 13,
+      "name": "Knight 5",
+      "type": "Knight",
+      "spriteFile": "Combomon Assets/characters/character_13.png"
+    },
+    {
+      "id": 14,
+      "name": "Knight 6",
+      "type": "Knight",
+      "spriteFile": "Combomon Assets/characters/character_14.png"
+    },
+    {
+      "id": 15,
+      "name": "Knight 7",
+      "type": "Knight",
+      "spriteFile": "Combomon Assets/characters/character_15.png"
+    },
+    {
+      "id": 16,
+      "name": "Knight 8",
+      "type": "Knight",
+      "spriteFile": "Combomon Assets/characters/character_16.png"
+    },
+    {
+      "id": 17,
+      "name": "Orc 1",
+      "type": "Orc",
+      "spriteFile": "Combomon Assets/characters/character_17.png"
+    },
+    {
+      "id": 18,
+      "name": "Orc 2",
+      "type": "Orc",
+      "spriteFile": "Combomon Assets/characters/character_18.png"
+    },
+    {
+      "id": 19,
+      "name": "Orc 3",
+      "type": "Orc",
+      "spriteFile": "Combomon Assets/characters/character_19.png"
+    },
+    {
+      "id": 20,
+      "name": "Orc 4",
+      "type": "Orc",
+      "spriteFile": "Combomon Assets/characters/character_20.png"
+    },
+    {
+      "id": 21,
+      "name": "Orc 5",
+      "type": "Orc",
+      "spriteFile": "Combomon Assets/characters/character_21.png"
+    },
+    {
+      "id": 22,
+      "name": "Orc 6",
+      "type": "Orc",
+      "spriteFile": "Combomon Assets/characters/character_22.png"
+    },
+    {
+      "id": 23,
+      "name": "Orc 7",
+      "type": "Orc",
+      "spriteFile": "Combomon Assets/characters/character_23.png"
+    },
+    {
+      "id": 24,
+      "name": "Orc 8",
+      "type": "Orc",
+      "spriteFile": "Combomon Assets/characters/character_24.png"
+    }
+  ]
+}
