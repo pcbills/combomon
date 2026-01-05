@@ -166,7 +166,16 @@ function setupNewBoard() {
     );
 
     // Pick 2 random locked monsters as "seed" monsters
-    const seedMonsters = getRandomElements(lockedMonsters, Math.min(2, lockedMonsters.length));
+    let seedMonsters = getRandomElements(lockedMonsters, Math.min(2, lockedMonsters.length));
+
+    // If we don't have 2 seeds, supplement with unlocked monsters
+    if (seedMonsters.length < 2) {
+        const unlockedMonsters = gameState.monsters.filter(m =>
+            gameState.unlockedMonsters.has(m.number)
+        );
+        const additionalSeeds = getRandomElements(unlockedMonsters, 2 - seedMonsters.length);
+        seedMonsters = [...seedMonsters, ...additionalSeeds];
+    }
 
     // Find all monsters that share at least one trait with the seed monsters
     const relatedMonsters = gameState.monsters.filter(m => {
