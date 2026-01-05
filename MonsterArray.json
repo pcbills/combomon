@@ -92,7 +92,7 @@
     },
     {
       "number": 11,
-      "name": "Sparkpup",
+      "name": "Sparkhound",
       "spriteFile": "Combomon Assets/sprites/sprite_011.png",
       "type": "Electric",
       "evolution": 2,
@@ -3000,3 +3000,4 @@
   ]
 
 }
+
